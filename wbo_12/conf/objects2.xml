@@ -1,0 +1,381 @@
+<!-- WBO 5 for GTA: CR -->
+<!-- XML файл: Object.xml -->
+<!-- by Сергей XRAY Ульянов
+        Сергей SRVK Слепов-->
+<!-- Все права сохранены -->
+
+<catalog type="obj">
+<group name="Fence">
+<obj name="Fence" model="3049" />
+<obj name="Fence 2" model="1412" />
+<obj name="Fence 3" model="970" />
+<obj name="Fence 4" model="987" />
+<obj name="Fence 5" model="969" />
+<obj name="Fence 6" model="971" />
+<obj name="Fence 7" model="972" />
+<obj name="Fence 8" model="975" />
+<obj name="Fence 9" model="976" />
+<obj name="Fence 10" model="980" />
+<obj name="Fence 11" model="982" /> 
+<obj name="Fence 12" model="983" />
+<obj name="Fence 13" model="984" />
+<obj name="Fence 14 R" model="985" />
+<obj name="Fence 14 L" model="986" /> 
+<obj name="Fence 15" model="988" />
+<obj name="Fence 16" model="989" />
+<obj name="Fence 17" model="3166" />
+<obj name="Fence 18" model="1784" />
+</group>
+<group name="Gate">
+<obj name="Gate" model="5111" />
+<obj name="Gate 2" model="4924" />
+<obj name="Gate 3" model="5232" />
+<obj name="Gate 4" model="4958" />
+<obj name="Gate 5" model="4925" />
+<obj name="Gate 6" model="4217" />
+<obj name="Gate 7" model="4218" />
+<obj name="Gate 8 R" model="5551" />
+<obj name="Gate 8 L" model="5550" />
+<obj name="Gate 9 R" model="3448" />
+<obj name="Gate 9 L" model="3447" />
+<obj name="Gate 10 R" model="4990" />
+<obj name="Gate 10 L" model="4989" />
+<obj name="Gate 11 R" model="4866" />
+<obj name="Gate 11 L" model="4865" />
+<obj name="Gate 12 L" model="4438" />
+<obj name="Gate 12 R" model="4439" />
+<obj name="Gate 13 L" model="1719" />
+<obj name="Gate 13 R" model="1720" />
+</group>
+<group name="Door">
+<obj name="Door" model="1491" />
+<obj name="Door 2" model="1492" />
+<obj name="Door 3" model="1502" />
+<obj name="Door 4" model="2202" />
+<obj name="Door 5" model="3176" />
+<obj name="Door 6" model="10181" />
+<obj name="Door 7" model="5110" />
+<obj name="Door 8" model="8707" />
+<obj name="Door 9" model="2328" />
+<obj name="Door 10" model="1959" />
+<obj name="Door 11" model="1960" />
+<obj name="Door 12" model="1946" />
+<obj name="Door 13" model="1947" />
+<obj name="Door 14" model="1948" />
+<obj name="Door 15" model="1935" />
+<obj name="Door 16" model="1936" />
+<obj name="Door 17" model="1937" />
+<obj name="Door 18" model="2583" />
+<obj name="Door 19" model="1756" />
+<obj name="Door 20" model="2030" />
+<obj name="Door 21" model="10091" />
+<obj name="Door 22" model="10092" />
+<obj name="Door 23" model="10094" />
+</group>
+<group name="Plant">
+<obj name="Tree" model="616" />
+<obj name="Tree 2" model="624" />
+<obj name="Tree 3" model="3651" />
+<obj name="Tree 4" model="3652" />
+<obj name="Tree 5" model="3653" />
+<obj name="Tree 6" model="3654" />
+<obj name="Tree 7" model="640" />
+<obj name="Tree 8" model="643" />
+<obj name="Tree 9" model="644" />
+<obj name="Tree 10" model="645" />
+<obj name="Tree 11" model="619" />
+<obj name="Tree 12" model="1715" />
+<obj name="Tree 13" model="1711" />
+<obj name="Birch" model="634" />
+<obj name="Birch 2" model="635" />
+<obj name="Birch 3" model="636" />
+<obj name="Birch 4" model="1714" />
+<obj name="Old tree" model="2625" />
+<obj name="Old tree 2" model="661" />
+<obj name="Poplar" model="618" />
+</group> 
+<group name="Light">
+<obj name="Lamppost" model="4887" />
+<obj name="Lamppost 2" model="1223" />
+<obj name="Lamppost 3" model="1716" /> 
+<obj name="Lamppost 4" model="4100" />
+<obj name="Lamppost 5" model="4101" />
+<obj name="Lamppost 6" model="8620" />
+<obj name="Lamppost 7" model="1568" />
+<obj name="Traffic lights" model="1706" />
+<obj name="Traffic lights 2" model="1707" />
+<obj name="Traffic lights 3" model="1315" />
+<obj name="Traffic lights 4" model="1283" />
+<obj name="Traffic lights 5" model="1350" />
+<obj name="Traffic lights 6" model="1351" />
+<obj name="Traffic lights 7" model="1352" />
+<obj name="Traffic lights 7" model="1352" />
+<obj name="Lighting" model="4102" />
+</group>
+<group name="Barrier">
+<obj name="Barrier road" model="973" />
+<obj name="Barrier road right" model="978" />
+<obj name="Barrier road left" model="979" />
+<obj name="Barrier 2" model="1228" />
+<obj name="Barrier 3" model="1214" />
+<obj name="Barrier 4" model="981" />
+<obj name="Cone" model="1238" />
+</group>
+<group name="Object">
+<obj name="Vending machines" model="1209" />
+<obj name="Vending machines 2" model="1302" />
+<obj name="Vending machines 3" model="10009" />
+<obj name="Vending machines 4" model="10010" />
+<obj name="Vending machines 5" model="10011" />
+<obj name="Vending machines 6" model="10012" />
+<obj name="Vending machines 7" model="10013" />
+<obj name="Hydrant" model="1211" />
+<obj name="Barrel" model="1217" />
+<obj name="Bag" model="1264" />
+<obj name="Screen" model="5472" />
+<obj name="Box" model="1271" />
+<obj name="Tarelka" model="1595" />
+<obj name="Tarelka 2" model="1596" />
+<obj name="Cond" model="1635" />
+<obj name="ATM" model="2942" />
+<obj name="Hamburger" model="1445" />
+<obj name="Hippo" model="1371" />
+<obj name="Blackboard" model="3077" />
+<obj name="Minigun" model="2985" />
+<obj name="Lift" model="1797" />
+<obj name="Lift door" model="1798" />
+<obj name="Lest" model="1466" /> 
+<obj name="Estakada" model="3421" />
+<obj name="Gatebox" model="967" />
+<obj name="Gatebar" model="966" />
+<obj name="Gate barrier" model="968" />
+<obj name="Vozd" model="8621" />
+<obj name="Lestnica" model="8622" />
+<obj name="Lestnica 2" model="1788" />
+<obj name="Locomotive" model="1771" /> 
+<obj name="Velo" model="10016" />
+<obj name="Bench" model="10017" />
+<obj name="Treadmil" model="10018" />
+<obj name="Mat" model="10019" />
+<obj name="Firebin" model="1362" />
+<obj name="Spot" model="10104" />
+<obj name="Camera" model="10162" />
+<obj name="Camera 2" model="10164" />
+<obj name="Light floor" model="10115" />
+<obj name="Moskchich damaged" model="4109" />
+<obj name="Vmodeleo" model="10175" />
+<obj name="Sound" model="5466" />
+<obj name="Speaker" model="1747" />
+<obj name="Detector" model="10243" />
+<obj name="Box" model="1300" />
+<obj name="Wheelchair" model="1369" />
+<obj name="Parking sign" model="4110" />
+<obj name="Trash box" model="8709" />
+<obj name="Valve" model="2983" />
+<obj name="Coil" model="1755" />
+<obj name="Balloon" model="1348" />
+<obj name="Container" model="2934" />
+<obj name="Container 2" model="2932" />
+<obj name="Container 3" model="2935" />
+<obj name="Tire" model="3577" />
+<obj name="Tire 2" model="3578" />
+<obj name="Tire 3" model="3579" />
+<obj name="Tribune" model="3581" />
+<obj name="Tribune 2" model="3583" />
+<obj name="Board" model="10261" />
+<obj name="Board 2" model="10262" />
+<obj name="Board 3" model="10199" />
+<obj name="Cactus" model="1745" />
+<obj name="Machine" model="1732" />
+<obj name="Machine 2" model="1733" />
+<obj name="Box 2" model="2991" />
+<obj name="Block" model="1685" />
+<obj name="Cart" model="1458" />
+<obj name="Cage" model="10095" />
+<obj name="Sphere" model="10116" />
+</group>
+<group name="Material">
+<obj name="Platform" model="5464" />
+<obj name="Platform 2" model="3095" />
+<obj name="Platform 3" model="3114" />
+<obj name="Platform 4" model="3115" />
+<obj name="Roof" model="1483" />
+<obj name="Roof 2" model="1692" />
+<obj name="Wall" model="1799" />
+<obj name="Wall 2" model="2118" />
+<obj name="Wall 3" model="3037" />
+<obj name="Wall 4" model="2951" />
+<obj name="Wall 5" model="1717" />
+<obj name="Wall 6" model="4374" />
+<obj name="Wall 7" model="3113" />
+<obj name="Window" model="8705" />
+<obj name="Glass" model="1649" />
+<obj name="Glass 2" model="2026" />
+<obj name="Glass 3" model="2027" />
+<obj name="Ladder" model="1472" />
+<obj name="Grass" model="2898" />
+<obj name="Bot" model="2939" /> 
+<obj name="Bot 2" model="3069" />
+<obj name="Grmodel" model="2945" /> 
+<obj name="Beam" model="2960" />
+<obj name="Texture" model="3032" />
+<obj name="Shutter" model="3055" />
+<obj name="Panel" model="3469" />
+<obj name="Panel 2" model="3051" />
+<obj name="Panel 3" model="3075" />
+<obj name="Panel 4" model="2930" />
+<obj name="Panel 6" model="3117" />
+<obj name="Panel 7" model="1414" />
+<obj name="Panel 8" model="2927" />
+<obj name="Panel 9" model="2928" />
+<obj name="Panel 10" model="2929" />
+<obj name="Panel 11" model="2952" />
+<obj name="Panel 12" model="3175" />
+<obj name="Panel 13" model="3062" />
+<obj name="Panel 14" model="3109" />
+</group>
+<group name="Ramp">
+<obj name="Ramp" model="1631" />
+<obj name="Ramp 2" model="1632" />
+<obj name="Ramp 3" model="1633" />
+<obj name="Ramp 4" model="1634" />
+<obj name="Ramp 5" model="1660" />
+<obj name="Ramp 6" model="1696" />
+<obj name="Ramp 7" model="1503" />
+<obj name="Ramp 8" model="2931" />
+</group> 
+<group name="Out house">
+<obj name="Bench" model="1256" />
+<obj name="Bench 2" model="4111" />
+<obj name="Bench 3" model="4112" />
+<obj name="Bench 4" model="5826" />
+<obj name="Bench 5" model="1368" />
+<obj name="Toilet" model="1777" />
+<obj name="Toilet 2" model="2984" />
+<obj name="Toilet 3" model="1452" />
+<obj name="Power transformer" model="2114" />
+<obj name="Power transformer 2" model="9140" />
+<obj name="Pump" model="1676" />
+<obj name="Table" model="1594" />
+<obj name="Grill" model="1481" />
+<obj name="Kennel" model="1451" />
+<obj name="Sandbox" model="4106" />
+<obj name="Sandbox 2" model="4107" />
+<obj name="Slmodele" model="4108" />
+<obj name="Fountain" model="8745" />
+<obj name="Flowerbed" model="8623" />
+</group>
+<group name="In house">
+<obj name="Mattresses" model="1725" />
+<obj name="Bed" model="1724" />
+<obj name="Couch" model="1645" />
+<obj name="Cabinet" model="1750" />
+<obj name="Cabinet 2" model="10178" />
+<obj name="Sofa" model="1746" />
+<obj name="Chair" model="1742" />
+<obj name="Chair 2" model="3174" />
+<obj name="Chair 3" model="10273" />
+<obj name="Chair 4" model="10120" />
+<obj name="Chair 5" model="10121" />
+<obj name="Chair 6" model="1663" />
+<obj name="Chair 7" model="1671" />
+<obj name="Chair 8" model="1562" />
+<obj name="Table" model="1749" />
+<obj name="Table 2" model="10208" />
+<obj name="Table 3" model="10219" />
+<obj name="Table 4" model="3172" />
+<obj name="Table 5" model="3041" />
+<obj name="Table 6" model="10193" />
+<obj name="Table 7" model="10194" />
+<obj name="Table 8" model="10266" />
+<obj name="Table 9" model="10182" />
+<obj name="Table 10" model="2081" />
+<obj name="Table 11" model="2082" />
+<obj name="Trolley" model="2994" />
+<obj name="Trash box" model="1783" />
+<obj name="Trash box 2" model="10190" />
+<obj name="Billiards" model="2964" />
+<obj name="Slot machine" model="2980" />
+<obj name="Monitor" model="1744" />
+<obj name="PC" model="1743" />
+<obj name="Keyboard" model="1738" />
+<obj name="TV" model="1429" />
+<obj name="Washer" model="1208" />
+<obj name="Radiator" model="10166" />
+<obj name="Cooker" model="10206" />
+<obj name="Cooker 2" model="10207" />
+<obj name="Microwave" model="10210" />
+<obj name="Microwave 2" model="10209" />
+<obj name="WC" model="10271" />
+<obj name="Washbasin" model="10098" />
+<obj name="Stand" model="1416" />
+<obj name="Stand 2" model="1417" />
+<obj name="Stand 3" model="10264" />
+<obj name="Stand 4" model="10101" />
+<obj name="Stand 5" model="10103" />
+<obj name="Stance" model="10200" />
+<obj name="Stance 2" model="10259" />
+<obj name="Stance 3" model="10260" />
+</group>
+<group name="Build">
+<obj name="Vodonapor" model="9148" />
+<obj name="Outhouse" model="1457" />
+<obj name="Tower" model="5529" /> 
+<obj name="Tower 2" model="3647" />
+<obj name="Brige" model="4838" />
+<obj name="Brige 2" model="5254" />
+<obj name="House" model="9123" />
+<obj name="House 2" model="5280" />
+<obj name="House 3" model="1637" />
+<obj name="Floor - ground" model="9211" />
+<obj name="Floor - cement" model="3048" />
+<obj name="Build" model="1684" />
+<obj name="Palatka" model="3040" />
+<obj name="Palatka 2" model="3039" />
+<obj name="Miliciya" model="5112" />
+<obj name="Tabak" model="8719" />
+<obj name="Tunnel" model="2236" />
+<obj name="Tunnel 2" model="2596" />
+<obj name="Column" model="1307" />
+<obj name="Stair" model="3146" />
+<obj name="Arbor" model="3514" />
+<obj name="Arbor 2" model="5776" />
+<obj name="Prolet" model="2246" />
+<obj name="Tent" model="1341" />
+<obj name="Tent 2" model="1342" />
+<obj name="Kiosk" model="4443" />
+<obj name="Kiosk 2" model="4638" />
+<obj name="Kiosk 3" model="8743" />
+<obj name="Fire tower" model="5109" />
+<obj name="Bus stop" model="4640" />
+<obj name="Bus stop 2" model="9213" />
+<obj name="Bus stop 3" model="8744" />
+<obj name="Substation" model="4087" />
+<obj name="Substation 2" model="8703" />
+<obj name="Substation 3" model="8741" />
+<obj name="Crane" model="4523" />
+<obj name="Crane 2" model="2956" />
+<obj name="Veranda" model="8643" />
+<obj name="Veranda 2" model="8641" />
+<obj name="Veranda 3" model="8639" />
+<obj name="Gas station" model="9147" />
+<obj name="Gas station 2" model="1953" />
+<obj name="Lodge" model="2013" />
+<obj name="Lodge 2" model="2024" />
+<obj name="Box" model="1872" />
+<obj name="Hangar" model="2011" />
+<obj name="Palm" model="1597" />
+<obj name="Gate" model="1952" />
+<obj name="LEP" model="1764" />
+<obj name="LEP 2" model="1765" />
+<obj name="LEP-500" model="5313" />
+<obj name="Well" model="4892" />
+<obj name="Well 2" model="4893" />
+<obj name="Well 3" model="9145" />
+</group>
+
+<group name="Others">
+<obj name="Radio Billboard" model="3616" />
+
+</group>
+</catalog>

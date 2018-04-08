@@ -1,0 +1,455 @@
+<objects>
+<group name="[CR]Ограждения">
+<obj name="Ограждение" model="3049" />
+<obj name="Ограждение 2" model="1412" />
+<obj name="Ограждение 3" model="970" />
+<obj name="Ограждение 4" model="987" />
+<obj name="Ограждение 5" model="969" />
+<obj name="Ограждение 6" model="971" />
+<obj name="Ограждение 7" model="972" />
+<obj name="Ограждение 8" model="975" />
+<obj name="Ограждение 9" model="976" />
+<obj name="Ограждение 10" model="980" />
+<obj name="Ограждение 11" model="982" /> 
+<obj name="Ограждение 12" model="983" />
+<obj name="Ограждение 13" model="984" />
+<obj name="Ограждение 14 (правое)" model="985" />
+<obj name="Ограждение 14 (левое)" model="986" /> 
+<obj name="Ограждение 15" model="988" />
+<obj name="Ограждение 16" model="989" />
+<obj name="Ограждение 17" model="3166" />
+<obj name="Ограждение 18" model="1784" />
+<obj name="Ограждение 19" model="10167" />
+</group>
+<group name="[CR]Ворота">
+<obj name="Ворота" model="5111" />
+<obj name="Ворота 2" model="4924" />
+<obj name="Ворота 3" model="5232" />
+<obj name="Ворота 4" model="4958" />
+<obj name="Ворота 5" model="4925" />
+<obj name="Ворота 6" model="4217" />
+<obj name="Ворота 7" model="4218" />
+<obj name="Ворота 8 (правые)" model="5551" />
+<obj name="Ворота 8 (левые)" model="5550" />
+<obj name="Ворота 9 (правые)" model="3448" />
+<obj name="Ворота 9 (левые)" model="3447" />
+<obj name="Ворота 10 (правые)" model="4990" />
+<obj name="Ворота 10 (левые)" model="4989" />
+<obj name="Ворота 11 (правые)" model="4866" />
+<obj name="Ворота 11 (левые)" model="4865" />
+<obj name="Ворота 12 (правые)" model="4439" />
+<obj name="Ворота 12 (левые)" model="4438" />
+<obj name="Ворота 13 (правые)" model="1720" />
+<obj name="Ворота 13 (левые)" model="1719" />
+<obj name="Ворота 14" model="10158" />
+</group>
+<group name="[CR]Двери">
+<obj name="Дверь" model="1491" />
+<obj name="Дверь 2" model="1492" />
+<obj name="Дверь 3" model="1502" />
+<obj name="Дверь 4" model="2202" />
+<obj name="Дверь 5" model="3176" />
+<obj name="Дверь 6" model="10181" />
+<obj name="Дверь 7" model="5110" />
+<obj name="Дверь 8" model="8707" />
+<obj name="Дверь 9" model="2328" />
+<obj name="Дверь 10" model="1959" />
+<obj name="Дверь 11" model="1960" />
+<obj name="Дверь 12" model="1946" />
+<obj name="Дверь 13" model="1947" />
+<obj name="Дверь 14" model="1948" />
+<obj name="Дверь 15" model="1935" />
+<obj name="Дверь 16" model="1936" />
+<obj name="Дверь 17" model="1937" />
+<obj name="Дверь 18" model="2583" />
+<obj name="Дверь 19" model="1756" />
+<obj name="Дверь 20" model="2030" />
+<obj name="Дверь 21" model="10091" />
+<obj name="Дверь 22" model="10092" />
+<obj name="Дверь 23" model="10094" />
+</group>
+<group name="[CR]Растения">
+<obj name="Дерево" model="616" />
+<obj name="Дерево 2" model="624" />
+<obj name="Дерево 3" model="3651" />
+<obj name="Дерево 4" model="3652" />
+<obj name="Дерево 5" model="3653" />
+<obj name="Дерево 6" model="3654" />
+<obj name="Дерево 7" model="640" />
+<obj name="Дерево 8" model="643" />
+<obj name="Дерево 9" model="644" />
+<obj name="Дерево 10" model="645" />
+<obj name="Дерево 11" model="619" />
+<obj name="Дерево 12" model="1715" />
+<obj name="Дерево 13" model="1711" />
+<obj name="Берёза" model="634" />
+<obj name="Берёза 2" model="635" />
+<obj name="Берёза 3" model="636" />
+<obj name="Берёза 4" model="1714" />
+<obj name="Старое дерево" model="2625" />
+<obj name="Старое дерево 2" model="661" />
+<obj name="Старое дерево 3" model="4394" />
+<obj name="Тополь" model="618" />
+</group> 
+<group name="[CR]Освещение">
+<obj name="Лампа" model="1709" />
+<obj name="Лампа 2" model="10177" />
+<obj name="Лампа 3" model="10161" />
+<obj name="Лампа 4" model="1215" />
+<obj name="Лампа 5" model="1731" />
+<obj name="Фонарный столб" model="4887" />
+<obj name="Фонарный столб 2" model="1223" />
+<obj name="Фонарный столб 3" model="1716" /> 
+<obj name="Фонарный столб 4" model="4100" />
+<obj name="Фонарный столб 5" model="4101" />
+<obj name="Фонарный столб 6" model="8620" />
+<obj name="Фонарный столб 7" model="1568" />
+<obj name="Светофор" model="1706" />
+<obj name="Светофор 2" model="1707" />
+<obj name="Светофор 3" model="1315" />
+<obj name="Светофор 4" model="1283" />
+<obj name="Светофор 5" model="1350" />
+<obj name="Светофор 6" model="1351" />
+<obj name="Светофор 7" model="1352" />
+<obj name="Светофор 7" model="1352" />
+<obj name="Электрофейерверк" model="4102" />
+</group>
+<group name="[CR]Заграждения">
+<obj name="Дорожное заграждение" model="973" />
+<obj name="Дорожное заграждение (правое)" model="978" />
+<obj name="Дорожное заграждение (левое)" model="979" />
+<obj name="Заграждение" model="1228" />
+<obj name="Заграждение 2" model="1214" />
+<obj name="Заграждение 3" model="981" />
+<obj name="Конус" model="1238" />
+</group>
+<group name="[CR]Объекты">
+<obj name="Автомат" model="1209" />
+<obj name="Автомат 2" model="1302" />
+<obj name="Автомат 3" model="10009" />
+<obj name="Автомат 4" model="10010" />
+<obj name="Автомат 5" model="10011" />
+<obj name="Автомат 6" model="10012" />
+<obj name="Автомат 7" model="10013" />
+<obj name="Гидрант" model="1211" />
+<obj name="Бочка" model="1217" />
+<obj name="Мешок" model="1264" />
+<obj name="Экран" model="5472" />
+<obj name="Тарелка" model="1595" />
+<obj name="Тарелка 2" model="1596" />
+<obj name="Кондиционер" model="1635" />
+<obj name="Банкомат" model="2942" />
+<obj name="Бамбургер" model="1445" />
+<obj name="Бегемот" model="1371" />
+<obj name="Доска" model="3077" />
+<obj name="Пулемёт" model="2985" />
+<obj name="Лифт" model="1797" />
+<obj name="Дверь лифта" model="1798" />
+<obj name="Леса" model="1466" /> 
+<obj name="Эстакада" model="3421" />
+<obj name="Будка" model="967" />
+<obj name="Стойка шлагбаума" model="966" />
+<obj name="Стрела шлагбаума" model="968" />
+<obj name="Труба" model="8621" />
+<obj name="Лестница" model="8622" />
+<obj name="Лестница 2" model="1788" />
+<obj name="Локомотив" model="1771" /> 
+<obj name="Прожектор" model="10104" />
+<obj name="Камера" model="10162" />
+<obj name="Камера 2" model="10164" />
+<obj name="Камера 3" model="10169" />
+<obj name="Светящийся пол" model="10115" />
+<obj name="Ржавый Москвич" model="4109" />
+<obj name="Ржавый ЗиЛ" model="4994" />
+<obj name="Ржавый автомобиль" model="10146" />
+<obj name="Видеоаппаратура" model="10175" />
+<obj name="Видеоаппаратура" model="10176" />
+<obj name="Звукоаппаратура" model="5466" />
+<obj name="Детектор" model="10243" />
+<obj name="Инвалидное кресло" model="1369" />
+<obj name="Знак парковки" model="4110" />
+<obj name="Мусорная урна" model="8709" />
+<obj name="Мусорная урна 2" model="1300" />
+<obj name="Мусорная урна 3" model="1362" />
+<obj name="Вентиль" model="2983" />
+<obj name="Вентиляция" model="10198" />
+<obj name="Вентиляция 2" model="10217" />
+<obj name="Катушка" model="1755" />
+<obj name="Балон" model="1348" />
+<obj name="Контейнер" model="2934" />
+<obj name="Контейнер 2" model="2932" />
+<obj name="Контейнер 3" model="2935" />
+<obj name="Покрышки" model="3577" />
+<obj name="Покрышки 2" model="3578" />
+<obj name="Покрышки 3" model="3579" />
+<obj name="Трибуна" model="3581" />
+<obj name="Трибуна 2" model="3583" />
+<obj name="Меню" model="10261" />
+<obj name="Меню 2" model="10262" />
+<obj name="Меню 3" model="10199" />
+<obj name="Станок" model="1732" />
+<obj name="Станок 2" model="1733" />
+<obj name="Коробка" model="1271" />
+<obj name="Коробка 2" model="2991" />
+<obj name="Коробки" model="10246" />
+<obj name="Коробки 2" model="3169" />
+<obj name="Коробки 3" model="3170" />
+<obj name="Ящик" model="1685" />
+<obj name="Телега" model="1458" />
+<obj name="Тележка" model="2994" />
+<obj name="Корзина" model="10095" />
+<obj name="Кассовый аппарат" model="10036" />
+<obj name="Шар для дискотеки" model="10116" />
+<obj name="Холм" model="9211" />
+<obj name="Цементный пол" model="3048" />
+<obj name="Мешок с деньгами" model="1550" />
+<obj name="Огнетушитель" model="10152" />
+<obj name="Дрова" model="1463" />
+</group>
+<group name="[CR]Материалы">
+<obj name="Платформа" model="5464" />
+<obj name="Платформа 2" model="3095" />
+<obj name="Платформа 3" model="3114" />
+<obj name="Платформа 4" model="3115" />
+<obj name="Крыша" model="1483" />
+<obj name="Крыша 2" model="1692" />
+<obj name="Стена" model="1799" />
+<obj name="Стена 2" model="2118" />
+<obj name="Стена 3" model="1965" />
+<obj name="Стена 4" model="3037" />
+<obj name="Стена 5" model="2951" />
+<obj name="Стена 6" model="1717" />
+<obj name="Стена 7" model="4374" />
+<obj name="Стена 8" model="3113" />
+<obj name="Стена 9" model="3055" />
+<obj name="Окно" model="8705" />
+<obj name="Стекло" model="1649" />
+<obj name="Стекло 2" model="2026" />
+<obj name="Стекло 3" model="2027" />
+<obj name="Лестница" model="1472" />
+<obj name="Газон" model="2898" />
+<obj name="Подъем" model="2939" /> 
+<obj name="Подъем 2" model="3069" />
+<obj name="Сетка" model="2945" /> 
+<obj name="Балка" model="2960" />
+<obj name="Доска" model="8701" />
+<obj name="Текстура" model="3032" />
+<obj name="Панель" model="3469" />
+<obj name="Панель 2" model="3051" />
+<obj name="Панель 3" model="3075" />
+<obj name="Панель 4" model="2930" />
+<obj name="Панель 5" model="3117" />
+<obj name="Панель 6" model="1414" />
+<obj name="Панель 7" model="2927" />
+<obj name="Панель 8" model="2928" />
+<obj name="Панель 9" model="2929" />
+<obj name="Панель 10" model="2952" />
+<obj name="Панель 11" model="3175" />
+<obj name="Панель 12" model="3062" />
+<obj name="Панель 13" model="3109" />
+</group>
+<group name="[CR]Трамплины">
+<obj name="Трамплин" model="1631" />
+<obj name="Трамплин 2" model="1632" />
+<obj name="Трамплин 3" model="1633" />
+<obj name="Трамплин 4" model="1634" />
+<obj name="Трамплин 5" model="1660" />
+<obj name="Трамплин 6" model="1696" />
+<obj name="Трамплин 7" model="1503" />
+<obj name="Трамплин 8" model="2931" />
+</group>
+<group name="[CR]Интерьер">
+<obj name="Бильярдный стол" model="2964" />
+<obj name="Игровой автомат" model="2980" />
+<obj name="Игровой автомат 2" model="1515" />
+<obj name="Монитор" model="1744" />
+<obj name="Системный блок" model="1743" />
+<obj name="Клавиатура" model="1738" />
+<obj name="Динамик" model="1747" />
+<obj name="Телевизор" model="1429" />
+<obj name="Телевизор 2" model="10226" />
+<obj name="Стиральная машина" model="1208" />
+<obj name="Плита" model="10206" />
+<obj name="Плита 2" model="10207" />
+<obj name="Микроволновка" model="10210" />
+<obj name="Микроволновка 2" model="10209" />
+<obj name="Туалет" model="10271" />
+<obj name="Раковина" model="10098" />
+<obj name="Батарея" model="10166" />
+<obj name="Велотренажер" model="10016" />
+<obj name="Скамья" model="10017" />
+<obj name="Беговая дорожка" model="10018" />
+<obj name="Мат" model="10019" />
+<obj name="Кактус" model="1745" />
+<obj name="Мусорная урна" model="1783" />
+<obj name="Мусорная урна 2" model="10190" />
+<obj name="Вешалка" model="10227" />
+<obj name="Вешалка 2" model="10236" />
+<obj name="Мухобойка" model="10204" />
+</group>
+<group name="[CR]Мебель">
+<obj name="Матрас" model="1725" />
+<obj name="Кровать" model="1724" />
+<obj name="Кровать 2" model="10165" />
+<obj name="Шезлонг" model="1645" />
+<obj name="Шкаф" model="1750" />
+<obj name="Шкаф 2" model="10178" />
+<obj name="Диван" model="1746" />
+<obj name="Диван 2" model="10120" />
+<obj name="Диван 3" model="10121" />
+<obj name="Стул" model="3174" />
+<obj name="Стул 2" model="10273" />
+<obj name="Кресло" model="1742" />
+<obj name="Кресло 2" model="1663" />
+<obj name="Кресло 3" model="1671" />
+<obj name="Кресло 4" model="1562" />
+<obj name="Стол" model="3041" />
+<obj name="Стол 2" model="10193" />
+<obj name="Стол 3" model="10194" />
+<obj name="Стол 4" model="10266" />
+<obj name="Письменный стол" model="3172" />
+<obj name="Письменный стол 2" model="1749" />
+<obj name="Письменный стол 3" model="10182" />
+<obj name="Компьютерный стол" model="2081" />
+<obj name="Компьютерный стол 2" model="2082" />
+<obj name="Кухонный стол" model="10208" />
+<obj name="Тумба" model="1416" />
+<obj name="Тумба для одежды" model="10247" />
+<obj name="Шкаф для посуды" model="1417" />
+<obj name="Стеллаж" model="10101" />
+<obj name="Стеллаж 2" model="10103" />
+<obj name="Стеллаж 3" model="10249" />
+<obj name="Полки" model="10170" />
+<obj name="Стойка" model="10200" />
+<obj name="Стойка 2" model="10259" />
+<obj name="Стойка 3" model="10260" />
+<obj name="Стойка 4" model="10240" />
+<obj name="Стойка 5" model="10241" />
+<obj name="Стойка 6" model="10242" />
+<obj name="Стойка 7" model="10106" />
+<obj name="Стойка с гамбургерами" model="10264" />
+<obj name="Касса" model="10219" />
+<obj name="Витрина" model="10250" />
+</group>
+<group name="[CR]Посуда">
+<obj name="Бутылка" model="1543" />
+<obj name="Бутылка 2" model="1544" />
+<obj name="Бутылка 3" model="1664" />
+<obj name="Бутылка 4" model="1668" />
+<obj name="Бутылка 5" model="1669" />
+<obj name="Бутылка 6" model="1487" />
+<obj name="Бутылка 7" model="1551" />
+<obj name="Бутылка с краником" model="1488" />
+<obj name="Стакан" model="1666" />
+<obj name="Стакан 2" model="1455" />
+<obj name="Бокал" model="1667" />
+<obj name="Пепельница" model="1665" />
+<obj name="Комплект" model="1670" />
+<obj name="Комплект 2" model="10215" />
+<obj name="Бумажный стакан" model="10269" />
+<obj name="Бумажный пакет" model="10270" />
+<obj name="Алюминевая банка" model="10015" />
+<obj name="Краник" model="1541" />
+<obj name="Краник 2" model="1542" />
+</group>
+<group name="[CR]Одежда">
+<obj name="Майка" model="10228" />
+<obj name="Майка 2" model="10229" />
+<obj name="Штаны" model="10232" />
+<obj name="Штаны 2" model="10234" />
+<obj name="Штаны 3" model="10235" />
+<obj name="Штаны 4" model="10239" />
+<obj name="Джинсы" model="10237" />
+<obj name="Толстовка" model="10238" />
+<obj name="Толстовка 2" model="10230" />
+<obj name="Куртка" model="10231" />
+<obj name="Куртка 2" model="10233" />
+<obj name="Коробки с обувью" model="10244" />
+</group>
+<group name="[CR]Экстерьер">
+<obj name="Скамейка" model="1256" />
+<obj name="Скамейка 2" model="4111" />
+<obj name="Скамейка 3" model="4112" />
+<obj name="Скамейка 4" model="5826" />
+<obj name="Скамейка 5" model="1368" />
+<obj name="Туалет" model="1777" />
+<obj name="Туалет 2" model="2984" />
+<obj name="Туалет 3" model="1452" />
+<obj name="Трансформатор" model="2114" />
+<obj name="Трансформатор 2" model="9140" />
+<obj name="Столик" model="1594" />
+<obj name="Грилль" model="1481" />
+<obj name="Будка для собаки" model="1451" />
+<obj name="Песочница" model="4106" />
+<obj name="Песочница 2" model="4107" />
+<obj name="Горка" model="4108" />
+<obj name="Фонтан" model="8745" />
+<obj name="Клумба" model="8623" />
+<obj name="Пальмы" model="1597" />
+<obj name="Колодец" model="4892" />
+<obj name="Колодец 2" model="4893" />
+<obj name="Колодец 3" model="9145" />
+<obj name="Мусорный контейнер" model="10171" />
+<obj name="Мусорный контейнер 2" model="1439" />
+<obj name="Почтовый ящик" model="1478" />
+</group>
+<group name="[CR]Постройки">
+<obj name="Беседка" model="3514" />
+<obj name="Беседка 2" model="5776" />
+<obj name="Шалаш" model="1457" />
+<obj name="Дом" model="5280" />
+<obj name="Сарай" model="9123" />
+<obj name="Пляжный домик" model="1637" />
+<obj name="Водонапорная башня" model="9148" />
+<obj name="Вышка" model="5529" /> 
+<obj name="Вышка 2" model="3647" />
+<obj name="Пожарная вышка" model="5109" />
+<obj name="Бытовка" model="1684" />
+<obj name="Палатка" model="3040" />
+<obj name="Палатка 2" model="3039" />
+<obj name="Палатка 3" model="1341" />
+<obj name="Палатка 4" model="1342" />
+<obj name="Пост милиции" model="5112" />
+<obj name="Табачный ларек" model="8719" />
+<obj name="Киоск" model="4443" />
+<obj name="Киоск 2" model="4638" />
+<obj name="Киоск 3" model="8743" />
+<obj name="Телеграфный столб" model="1307" />
+<obj name="Столб" model="10173" />
+<obj name="Лестница" model="3146" />
+<obj name="Остановка" model="4640" />
+<obj name="Остановка 2" model="9213" />
+<obj name="Остановка 3" model="8744" />
+<obj name="Подстанция" model="4087" />
+<obj name="Подстанция 2" model="8703" />
+<obj name="Подстанция 3" model="8741" />
+<obj name="Веранда" model="8643" />
+<obj name="Веранда 2" model="8641" />
+<obj name="Веранда 3" model="8639" />
+<obj name="Газовая станция" model="9147" />
+<obj name="Бензоколонка" model="1676" />
+<obj name="Бензоколонка 2" model="1686" />
+<obj name="АЗС" model="1953" />
+<obj name="Сторожка" model="2013" />
+<obj name="Здание станции" model="2024" />
+<obj name="Футбольная коробка" model="1872" />
+<obj name="Ангар" model="2011" />
+<obj name="Въезд" model="1952" />
+<obj name="Кран" model="4523" />
+<obj name="Кран 2" model="2956" />
+<obj name="ЛЭП" model="1764" />
+<obj name="ЛЭП 2" model="1765" />
+<obj name="ЛЭП-500" model="5313" />
+<obj name="Мост" model="4838" />
+<obj name="Мост 2" model="5254" />
+<obj name="Мост 3" model="2246" />
+<obj name="Тоннель" model="2236" />
+<obj name="Тоннель 2" model="2596" />
+</group>
+<group name="[CR]Разное">
+
+<obj model="3616" name="Стенд радио" />
+
+</group>
+
+</objects>

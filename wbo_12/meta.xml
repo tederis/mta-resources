@@ -1,0 +1,88 @@
+<meta>
+    <info author="TEDERIs" version="1.2.2" name="TCT" type="script" />
+    
+
+    <config src="conf/objects.xml" type="client" />
+    <config src="conf/vehicles.xml" type="client" />
+    <config src="conf/peds.xml" type="client" />
+    
+    <script src="wbo_cl_util.lua" type="client" />
+    <script src="wbo_cl_controls.lua" type="client" />
+    <script src="wbo_cl_build.lua" type="client" />
+    <script src="wbo_cl_gui.lua" type="client" />
+    <script src="wbo_cl_tools.lua" type="client" />
+    <script src="wbo_cl_help.lua" type="client" />
+    
+    <script src="wbo_cl_texture.lua" type="client" />
+    <script src="wbo_cl_sound.lua" type="client" />
+    
+    <script src="wire/wbo_cl_wire.lua" type="client" />
+    <script src="wire/wbo_se_wire.lua" type="server" />
+    <script src="wire/wbo_wirelib.lua" type="server" />
+    <script src="wire/wbo_wirelib.lua" type="client" />
+    <script src="wire/effects_client.lua" type="client" />
+    <script src="wire/gates_server.lua" type="server" />
+    <script src="wire/gates_server.lua" type="client" />
+    <script src="wire/wbo_se_script.lua" type="server" />
+    <script src="wire/cl_inline.lua" type="client" />
+    <script src="wbo_cl_area.lua" type="client" />
+    
+    <script src="wbo_se_util.lua" type="server" />
+    <script src="wbo_se_build.lua" type="server" />
+    <script src="wbo_se_save.lua" type="server" />
+    
+    <file src="textures/crete_walls9.dds" />
+    <file src="textures/crete_walls18.dds" />
+    <file src="textures/ston_briks_ch.dds" />
+    <file src="textures/crete_schiffer3.dds" />
+    <file src="textures/crete_floor4.dds" />
+    <file src="textures/wood_parket_01.dds" />
+    <file src="textures/wood_plank7.dds" />
+    <file src="textures/crete_plitka_qllab.dds" />
+    <file src="textures/grnd_asphalt_tile1.dds" />
+    <file src="textures/door_sheet.dds" />
+    <file src="textures/edovo_autovokzal_fencewall.dds" />
+    <file src="textures/edovo_doubledom_grass256HD.dds" />
+    <file src="textures/rub.dds" />
+    <file src="textures/ruscount_road1.dds" />
+    
+    <file src="textures/ab_tileDiamond.dds" />
+	<file src="textures/AH_flroortile3.dds" />
+	<file src="textures/ah_wpaper7.dds" />
+	<file src="textures/comptwall31.dds" />
+	<file src="textures/cratetop128.dds" />
+	<file src="textures/cw2_logwall.dds" />
+	<file src="textures/derevachka.dds" />
+	<file src="textures/des_radiomast.dds" />
+	<file src="textures/GB_nastybar03.dds" />
+	<file src="textures/mp_shop_floor2.dds" />
+	<file src="textures/peshruf32256hi.dds" />
+	<file src="textures/window5b.dds" />
+	<file src="textures/ws_sandstone2.dds" />
+    
+    <file src="textures/grnd_dry_iov.dds" />
+    
+    <file src="textures/56.png" />
+    
+    <file src="sound/siren2.ogg" />
+    <file src="sound/door_bell.ogg" />
+    
+    <file src="sound/CB_Clap.wav"/>
+	<file src="sound/CB_Hat.wav"/>
+	<file src="sound/CB_Kick.wav"/>
+	<file src="sound/CB_Snare.wav"/>
+	<file src="sound/Clap Basic.wav"/>
+	<file src="sound/Hat Basic.wav"/>
+	<file src="sound/Kick Basic.wav"/>
+	<file src="sound/Snare Basic.wav"/>
+    
+    <file src="shaders/add.fx" />
+    <file src="shaders/area.fx" />
+    <file src="shaders/mta-helper.fx" />
+    
+    <settings>
+        <setting name="*saveDelay" value="400000" />
+        <setting name="*mapName" value="main" />
+        <setting name="*checkPermission" value="true" />
+    </settings>
+</meta>
