@@ -1,0 +1,12 @@
+<meta>
+ <info author="TEDERIs" version="0.1" name="GM-foodshop" description="GM food shop" type="script" />
+ <script src="ClientTaskFoodShop.lua" type="client" />
+ <script src="ServerTaskFoodShop.lua" type="server" />
+ <script src="client.lua" type="client" />
+ <script src="client_anim.lua" type="client" />
+ <script src="server.lua" type="server" />
+ 
+ <include resource="bone_attach"/>
+ 
+ <config src="food.xml" type="client" />
+</meta>

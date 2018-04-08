@@ -1,0 +1,6 @@
+<map>
+ <object posX="-171.849" posY="461.467" posZ="11.883" rotX="0" rotY="0" rotZ="0" model="727" id="smtree1" />
+ <object posX="-171.576" posY="461.452" posZ="11.883" rotX="0" rotY="0" rotZ="270" model="727" id="smtree2" />
+ <object posX="-171.593" posY="461.175" posZ="11.883" rotX="0" rotY="0" rotZ="180" model="727" id="smtree3" />
+ <object posX="-171.860" posY="461.196" posZ="11.883" rotX="0" rotY="0" rotZ="90" model="727" id="smtree4" />
+</map>

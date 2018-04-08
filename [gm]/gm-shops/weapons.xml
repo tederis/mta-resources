@@ -1,0 +1,41 @@
+<weapons>
+	<group name="Pistols">
+		<weapon id="22" name="9mm" cost="200" model="346" />
+		<weapon id="23" name="Silenced 9mm" cost="600" model="347" />
+		<weapon id="24" name="Desert Eagle" cost="1200" model="348" />
+	</group>
+	
+	<group name="Micro SMGs">
+		<weapon id="32" name="Tec9" cost="300" model="372" />
+		<weapon id="28" name="Micro SMG" cost="500" model="352" />
+	</group>
+	
+	<group name="Shotguns">
+		<weapon id="25" name="Shotgun" cost="600" model="349" />
+		<weapon id="26" name="Sawnoff Shotgun" cost="800" model="350" />
+		<weapon id="27" name="Combat Shotgun" cost="1000" model="351" />
+	</group>
+	
+	<group name="Thrown">
+		<weapon id="16" name="Grenades" cost="300" model="342" />
+		<weapon id="39" name="Remote Explosives" cost="2000" model="363" />
+	</group>
+	
+	<group name="Armor">
+		<weapon id="-1" name="Body Armor" cost="200" model="373" />
+	</group>
+	
+	<group name="SMG">
+		<weapon id="29" name="SMG" cost="2000" model="353" />
+	</group>
+	
+	<group name="Rifles">
+		<weapon id="33" name="Rifle" cost="1000" model="357" />
+		<weapon id="34" name="Sniper rifle" cost="5000" model="358" />
+	</group>
+	
+	<group name="Assault">
+		<weapon id="30" name="AK47" cost="3500" model="355" />
+		<weapon id="31" name="M4" cost="4500" model="356" />
+	</group>
+</weapons>

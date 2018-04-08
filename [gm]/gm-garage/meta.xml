@@ -1,0 +1,11 @@
+<meta>
+	<info author="TEDERIs" version="0.1" name="GM-garage" description="TEDERIs gamemode" type="script" />
+	<script src="client.lua" type="client" />
+	<script src="gui.lua" type="client" />
+	<script src="server.lua" type="server" />
+	<script src="upgrade_cl.lua" type="client" />
+	
+	<map src="garages.map" />
+	<file src="background.png" />
+	<file src="selected.png" />
+</meta>

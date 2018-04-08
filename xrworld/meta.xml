@@ -1,0 +1,6 @@
+<meta>
+	<info author="XRAY" version="0.1" name="xrworld" description="World management" type="script" />
+	<script src="server.lua" type="server" />
+	
+	<map src="generic.map"/>
+</meta>

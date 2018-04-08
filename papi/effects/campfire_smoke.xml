@@ -1,0 +1,23 @@
+<effect name="campfire_smoke" maxParticles="12" >
+	<sprite texture="pfx_smoke_b" shader="blend" />
+	<movement>
+		<collision destroyOnContact="true" friction="0" resilence="0" cutoff="0" />
+	</movement>
+	<actions>
+		<action name="KillOld" ageLimit="2" />
+		<action name="Source" rate="8" startingAge="0" ageSigma="0" parentMotion="0" allowRotate="true">
+			<domain type="box" point1="-0.500,-0.500,-0.100" point2="0.500,0.500,0.900" />
+			<velocity type="box" point1="-0.3,-0.3,0.7" point2="0.3,0.3,1.3" />
+			<rotation type="line" point1="2062.648,-57.296,-57.296" point2="343.775,57.296,57.296" />
+			<size type="point" point1="0.100,0,0.100" />
+			<color type="line" point1="76,68,53" point2="25,25,25" alpha="51"/>
+		</action>
+		<action name="TargetColor" color="12,12,12" alpha="60" scale="1" timeFrom="0" timeTo="1" />
+		<action name="TargetSize" size="3,0.001,3" scale="0.7,0,0.7" />
+		<action name="RandomAccel">
+			<accelerate type="box" point1="-2,-2,-2" point2="2,2,2" />
+		</action>
+		<action name="TargetRotate" rotation="130.241,0,0" scale="0.03" />
+		<action name="Move" />
+	</actions>
+</effect>

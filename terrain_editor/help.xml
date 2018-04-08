@@ -1,0 +1,19 @@
+<help popup="yes">
+Terrain Editor
+
+ Commands:
+ /lodlevel level
+ LOD level. (0, 3)
+ 
+ /genrate rate
+ The model building speed. (0, 1000)
+ 
+ /gentime time
+ The model building delay time. (1, 1000)
+ 
+ /showmap
+ Show and hide terrain map.
+ 
+ Hot keys:
+ X - edit mode
+</help>

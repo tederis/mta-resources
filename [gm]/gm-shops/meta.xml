@@ -1,0 +1,13 @@
+<meta>
+ <info author="XRAY" version="0.1" name="XTC" description="XRAY's Construction Tools" type="script" />
+ <script src="ClientTaskManager.lua" type="client" />
+ <script src="ClientTaskWeapon.lua" type="client" />
+ <script src="ClientTaskMeal.lua" type="client" />
+ <script src="client.lua" type="client" />
+ <script src="server.lua" type="server" />
+ <script src="gui.lua" type="client" />
+ 
+ <include resource="bone_attach"/>
+ 
+ <config src="weapons.xml" type="client" />
+</meta>

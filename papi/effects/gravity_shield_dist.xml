@@ -1,0 +1,17 @@
+<effect name="gravity_shield_dist" maxParticles="1" >
+	<sprite texture="pfx_dist2" shader="xdistort" />
+	<actions>
+		<action name="KillOld" ageLimit="2" enabled="true"/>
+		<action name="Source" rate="2" singleSize="true" startingAge="0" ageSigma="0" parentMotion="0" allowRotate="true" enabled="true">
+			<domain type="point" point1="0,0,0.500" />
+			<velocity type="point" point1="0,0,-0.500" />
+			<rotation type="line" point1="-60,-60,-60" point2="60,60,60" />
+			<size type="line" point1="12,12,12" point2="14,14,14" />
+			<color type="point" point1="0,0,0" alpha="33"/>
+		</action>
+		<action name="TargetColor" color="216,216,216" alpha="33" scale="4" timeFrom="0" timeTo="1" enabled="true"/>
+		<action name="TargetSize" size="0.500,0.500,0.500" scale="2,2,2" enabled="true"/>
+		<action name="TargetRotate" rotation="0,0,0" scale="2" enabled="true"/>
+		<action name="Move" draw="false" enabled="true"/>
+	</actions>
+</effect>

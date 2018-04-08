@@ -1,0 +1,18 @@
+<effect name="studen/studen_idle_bottom" maxParticles="20" >
+	<sprite texture="pfx_anomaly_16" shader="alpha_add" />
+	<actions>
+		<action name="KillOld" ageLimit="1" />
+		<action name="Source" rate="8" startingAge="0" ageSigma="0" parentMotion="0" allowRotate="true">
+			<domain type="disc" center="0,0,-0.05" normal="0,0,1" radiusInner="0" radiusOuter="1.65" />
+			<velocity type="line" point1="0,0,0.25" point2="0,0,0.5" />
+			<rotation type="line" point1="-7849.521,-57.296,-57.296" point2="7849.521,57.296,57.296" />
+			<size type="line" point1="0.3,0.3,0.3" point2="0.15,0.1,0.15" />
+			<color type="point" point1="255,255,255" alpha="175"/>
+		</action>
+		<action name="TargetColor" color="1,1,1" alpha="0" scale="1" timeFrom="0" timeTo="1"/>
+		<action name="TargetSize" size="1.5,1.5,1.5" scale="2,2,2" />
+		<action name="TargetRotate" rotation="2912.758,0,0" scale="0.013" />
+		<action name="TargetVelocity" velocity="0,0,1" scale="0" allowRotate="true" />
+		<action name="Move" draw="false" enabled="true"/>
+	</actions>
+</effect>

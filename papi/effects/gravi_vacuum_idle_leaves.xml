@@ -1,0 +1,25 @@
+<effect name="gravi_vacuum_idle_leaves" maxParticles="20" >
+	<sprite texture="pfx_leaves_01" shader="blend">
+		<frame randomInit="true" count="4" sizeU="0.5" sizeV="0.5"/>
+		<animated speed="32"/>
+	</sprite>
+	<movement>
+		<alignToPath defaultRotate="-90,0,0"/>
+	</movement>
+	<actions>
+		<action name="KillOld" ageLimit="2" enabled="true"/>
+		<action name="OrbitPoint" center="0,0,0" magnitude="100" epsilon="0.100" maxRadius="999999984306749.000"/>
+		<action name="Sink" killInside="true">
+			<domain type="box" point1="0,0,0" point2="1.5,1.5,1.5" />
+		</action>
+		<action name="SpeedLimit" minSpeed="-1" maxSpeed="8" />
+		<action name="Source" rate="100" singleSize="true" startingAge="0" ageSigma="0" parentMotion="0" allowRotate="true" enabled="true">
+			<domain type="disc" center="0,0,0.300" normal="0,0,1" radiusInner="0" radiusOuter="6" />
+			<velocity type="point" point1="0.500,0.500,4.0" />
+			<rotation type="point" point1="0,0,0" />
+			<size type="line" point1="0.050,0.050,0.050" point2="0.100,0.100,0.100" />
+			<color type="point" point1="255,255,255" alpha="255"/>
+		</action>
+		<action name="Move" draw="false" enabled="true"/>
+	</actions>
+</effect>

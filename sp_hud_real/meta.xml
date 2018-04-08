@@ -1,0 +1,19 @@
+<meta>
+	<info author="XRAY" version="0.1" name="Protect" description="by XRAY" type="script" />
+	<script src="utils.lua" type="client" />
+	<script src="items.lua" type="shared" /> 
+	<script src="client.lua" type="client" />
+	
+	<file src="textures/ui_mn_health.dds" />
+	<file src="textures/ui_mn_weapons.dds" />
+	<file src="textures/ui_mg_back_map.dds" />
+	<file src="textures/ui_hud_map_arrow.dds" />
+	<file src="textures/ui_mg_back_pager.dds" />
+	<file src="textures/hud_map_point.dds" />
+	<file src="textures/ui_mg_progress_efficiency_empty.dds" />
+	<file src="textures/ui_mg_progress_efficiency_full.dds" />
+	<file src="textures/ui_motion_icon.dds" />
+	<file src="textures/ui_icon_equipment.dds" />
+	
+	<file src="AG Letterica Roman Medium.ttf" />
+</meta>

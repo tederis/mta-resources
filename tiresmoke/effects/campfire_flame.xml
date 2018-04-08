@@ -1,0 +1,21 @@
+<effect name="campfire_flame" maxParticles="3" >
+	<!--<timeLimit value="1.00" />-->
+	<sprite texture="pfx_ani-fire01" shader="add">
+		<frame randomInit="true" count="77" sizeU="0.09082000" sizeV="0.14257800" />
+		<animated speed="30" />
+	</sprite>
+	<movement>
+		<alignToPath defaultRotate="-90,0,0" /> <!-- -90,0,0 -->
+	</movement>
+	<actions>
+		<action name="Source" rate="100" startingAge="0" ageSigma="0" parentMotion="0" allowRotate="true" enabled="true">
+			<domain type="disc" center="0,0,0.780" normal="0,0,2" radiusInner="0.045" radiusOuter="0.050" />
+			<velocity type="point" point1="0,0,0" />
+			<rotation type="point" point1="0,0,0" />
+			<size type="point" point1="0.850,1,1.750" />
+			<color type="point" point1="0,0,0" alpha="255"/>
+		</action>
+		<action name="TargetColor" color="188,188,188" alpha="255" scale="2" timeFrom="0" timeTo="1" enabled="true"/>
+		<action name="Move" draw="false" enabled="true"/>
+	</actions>
+</effect>

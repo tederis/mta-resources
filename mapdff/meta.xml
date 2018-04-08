@@ -1,0 +1,22 @@
+<meta>
+	<info author="XRAY" version="0.1" name="Protect" description="by XRAY" type="script" />
+	
+	<script src="client.lua" type="client" />
+	
+	<script src="_compile.lua" type="server" />
+	
+	<file src="shaders\mta-helper.fx" />
+	<file src="shaders\default.fx" />
+	<file src="shaders\def_vertex.fx" />
+	<file src="shaders\treelod.fx" />
+	<file src="shaders\default_internal.fx" />
+	
+	<include resource="xrskybox" />
+	
+	<export function="createPointLight" type="client" />
+	<export function="clearAllPoints" type="client" />
+	
+	<export function="xrDefineMeshShader" type="client" />
+	<export function="xrDestroyMeshShader" type="client" />
+	<export function="xrDefineInternal" type="client" />
+</meta>

@@ -1,0 +1,8 @@
+<meta>
+	<info author="TEDERIs" version="0.1" name="GM-carpark" description="TEDERIs gamemode" type="script" />
+	<script src="client.lua" type="client" />
+	<script src="server.lua" type="server" />
+	<script src="message_cl.lua" type="client" />
+	
+	<include resource="missionmanager"/>
+</meta>

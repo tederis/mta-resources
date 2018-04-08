@@ -1,0 +1,10 @@
+<graph owner="XRAY" public="0" name="gmmain">
+    <node id="veRwU75H6G" tag="Game:GameRoom" posX="-417" posY="-222"></node>
+    <node id="I2088c1anP" tag="Spawnpoint" posX="-136" posY="-280" linkedID="I5IzX1WC4J">
+        <property index="2" value="nil"></property>
+        <property index="3" value="1"></property>
+        <property index="4" value="0"></property>
+    </node>
+    <edge id="r3cjeu53pV" nodeSrc="veRwU75H6G" portSrc="1" nodeDst="I2088c1anP" portDst="1"></edge>
+    <edge id="G3WWV04Xh2" nodeSrc="veRwU75H6G" portSrc="4" nodeDst="I2088c1anP" portDst="2"></edge>
+</graph>

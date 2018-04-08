@@ -1,0 +1,8 @@
+<meta>
+ <info author="XRAY" version="0.1" name="Stalker shaders" description="by XRAY" type="script" />
+ <script src="server.lua" type="server" />
+ <script src="textures.lua" type="client" />
+ <file src="shaders/mta-helper.fx"/>
+ <file src="shaders/shader.fx"/>
+ <file src="single.mtacrmat" />
+</meta>

@@ -1,0 +1,319 @@
+<objects>
+	<group name="Vegetation" >
+		<obj name="Palm" model="626" />
+		<obj name="Pot" model="638" />
+		<obj name="Pot 2" model="2811" />
+		<obj name="Tree" model="775" />
+		<obj name="Tree 2" model="779" />
+	</group>
+	<group name="Fence">
+		<obj name="Electric gate" model="969" />
+		<obj name="Electric gate 2" model="975" />
+		<obj name="Electric gate 3" model="976" />
+		<obj name="Electric gate 4" model="980" />
+		<obj name="Automatic gate rigth" model="985" />
+		<obj name="Automatic gate left" model="986" />
+		<obj name="Automatic gate 2" model="988" />
+		<obj name="Automatic gate 3" model="989" />
+		<obj name="Subway gate" model="971" />
+		<obj name="Tunnel gate" model="972" />
+		<obj name="Fence" model="970" />
+		<obj name="Fence 2" model="982" />
+		<obj name="Fence 3" model="983" />
+		<obj name="Fence 4" model="984" />
+		<obj name="Fence 5" model="3475" />
+		<obj name="Fence 6 [d]" model="1411" />
+		<obj name="Fence 7 [d]" model="1410" />
+		<obj name="Fence 8" model="1407" />
+		<obj name="Fence 9" model="1408" />
+		<obj name="Fence 10" model="1446" />
+		<obj name="Fence 11" model="3049" />
+		<obj name="Electric fence" model="987" />
+		<obj name="Road barrier" model="973" />
+		<obj name="Road barrier rigth" model="978" />
+		<obj name="Road barrier left" model="979" />
+		<obj name="Barrier" model="981" />
+	</group>
+	<group name="Door">
+		<obj name="Door" model="1491" />
+		<obj name="Door 2" model="1492" />
+		<obj name="Door 3" model="1494" />
+		<obj name="Door 4" model="1499" />
+		<obj name="Door 5" model="1502" />
+		<obj name="Door static" model="1493" />
+		<obj name="Door static 2" model="1557" />
+		<obj name="Door static 3" model="2988" />
+		<obj name="Container door static" model="3062" />
+	</group>
+	<group name="Light">
+		<obj name="Light" model="3385" />
+		<obj name="Light 2" model="1215" />
+		<obj name="Lamp" model="3534" />
+		<!--</obj><obj name="Lamp 2" model="2070" />-->
+		<obj name="Lamppost" model="3472" />
+		<obj name="Lamppost 2" model="3463" />
+		<obj name="Lamppost 3" model="1223" />
+		<obj name="Lamppost 4" model="1294" />
+		<obj name="Lamppost 5" model="1568" />
+		<obj name="Torch" model="3461" />
+		<obj name="Torch 2" model="3524" />
+	</group>
+	<group name="Object">
+		<obj name="Button" model="2886" />
+		<obj name="Gatebar" model="966" />
+		<obj name="Gatebar 2" model="2920" />
+		<obj name="Gatebox" model="967" />
+		<obj name="Gate" model="968" />
+		<obj name="Air conditioning" model="1635" />
+		<obj name="Crane" model="3620" />
+		<obj name="Debris" model="3097" />
+		<obj name="Hovel" model="1457" />
+		<obj name="Hovel 2" model="12991" />
+		<obj name="Hovel 3" model="3414" />
+		<obj name="Firewood" model="1463" />
+		<obj name="Trailer" model="3566" />
+		<obj name="Trailer 2" model="3567" />
+		<obj name="Trailer 3" model="3568" />
+		<obj name="Trailer 4" model="3569" />
+		<obj name="Car" model="3593" />
+	</group>
+	<group name="Material">
+		<obj name="Panel" model="17951" />
+		<obj name="Panel 2" model="2957" />
+		<obj name="Wood panel" model="3260" />
+		<obj name="Wood panel 2" model="2395" />
+		<obj name="Metal panel [h]" model="3280" />
+		<obj name="Metal panel 2" model="3117" />
+		<obj name="Metal panel 3" model="3055" />
+		<obj name="Metal panel 4" model="2929" />
+		<obj name="Metal panel 5" model="2928" />
+		<obj name="Metal panel 6" model="2679" />
+		<obj name="Metal panel 7" model="2962" />
+		<obj name="Metal sheet" model="2904" />
+		<obj name="Metal sheets [h]" model="3302" />
+		<obj name="Metal sheets 2 [d]" model="1414" />
+		<obj name="Dojo wall" model="2755" />
+		<obj name="Partition" model="2591" />
+		<obj name="Tent" model="3433" />
+		<obj name="Tent 2" model="3432" />
+		<obj name="Window" model="1553" />
+		<obj name="Window 2" model="3278" />
+		<obj name="Blinds" model="914" />
+		<obj name="Blind" model="3032" />
+		<obj name="Glass" model="1649" />
+		<obj name="Grass" model="2989" />
+		<obj name="Cement" model="3048" />
+		<obj name="Supports" model="3274" />
+	</group>
+	<group name="Construction">
+		<obj name="Platform" model="3095" />
+		<obj name="Platform 2" model="3115" />
+		<obj name="Platform 3" model="3114" />
+		<obj name="Wall 2" model="8645" />
+		<obj name="Wall 3 b" model="8647" />
+		<obj name="Wall 4" model="8650" />
+		<obj name="Wall 4 b" model="8653" />
+		<obj name="Wall 5" model="13647" />
+		<obj name="Wall 5 b" model="13648" />
+		<obj name="Wall corner" model="4724" />
+		<obj name="Wall corner 2" model="7921" />
+		<obj name="Column" model="9131" />
+		<obj name="Column 2" model="3533" />
+		<obj name="Column 3" model="3494" />
+		<obj name="Column 4" model="3441" />
+		<obj name="Pillar" model="3499" />
+		<obj name="Pillar 2" model="3498" />
+		<obj name="Pillar 3" model="3440" />
+		<obj name="Pillar 4" model="2774" />
+		<obj name="Beam" model="3529" />
+		<obj name="Beam b" model="3530" />
+		<obj name="Beam 2" model="2960" />
+		<obj name="Tube" model="3502" />
+		<obj name="Barrier" model="3578" />
+		<obj name="Car shade" model="3458" />
+		<obj name="Dock" model="10841" />
+		<obj name="Porch" model="1472" />
+		<obj name="Stairs" model="14387" />
+		<obj name="Stairs 2" model="7096" />
+		<obj name="Stairs 3" model="3399" />
+		<obj name="Scaffold" model="1466" />
+		<obj name="Cover" model="3403" />
+		<obj name="Walkway" model="2633" />
+		<obj name="Guard house" model="5837" />
+		<obj name="House" model="3626" />
+		<obj name="Angar" model="8251" />
+		<obj name="Angar 2" model="16098" />
+		<obj name="Garage" model="18266" />
+		<obj name="Garage 2" model="17324" />
+		<obj name="Garage 3" model="10831" />
+		<obj name="Garage 4" model="16409" />
+		<obj name="Tower" model="3279" />
+		<obj name="Container" model="2669" />
+		<obj name="Roof" model="1483" />
+		<obj name="Roof 2" model="3075" />
+	</group>
+	<group name="[IN]Furniture">
+		<obj name="Bed" model="1700" />
+		<obj name="Bed 2" model="1701" />
+		<obj name="Bed 3" model="1725" />
+		<obj name="Bed 4" model="1745" />
+		<obj name="Bed 5" model="1800" />
+		<obj name="Bed 6" model="1793" />
+		<obj name="Bed 7" model="1794" />
+		<obj name="Bed 8" model="1796" />
+		<obj name="Bed 9" model="1799" />
+		<obj name="Bed 10" model="1802" />
+		<obj name="Bed 11" model="1803" />
+		<obj name="Bed 12" model="1812" />
+		<obj name="Bed 13" model="2299" />
+		<obj name="Swank bed" model="1795" />
+		<obj name="Swank bed 2" model="1797" />
+		<obj name="Swank bed 3" model="1798" />
+		<obj name="Swank bed 4" model="1801" />
+		<obj name="Couch" model="1702" />
+		<obj name="Couch 2" model="1703" />
+		<obj name="Couch 3" model="1706" />
+		<obj name="Couch 4" model="1707" />
+		<obj name="Couch 5" model="1709" />
+		<obj name="Couch 6" model="1710" />
+		<obj name="Couch 7" model="1712" />
+		<obj name="Couch 8" model="1713" />
+		<obj name="Couch 9" model="1723" />
+		<obj name="Couch 10" model="1726" />
+		<obj name="Couch 11" model="1728" />
+		<obj name="Couch 12" model="1756" />
+		<obj name="Couch 13" model="1757" />
+		<obj name="Couch 14" model="1760" />
+		<obj name="Couch 15" model="1763" />
+		<obj name="Couch 16" model="1764" />
+		<obj name="Couch 17" model="1766" />
+		<obj name="Couch 18" model="1768" />
+		<obj name="Swank couch" model="1761" />
+		<obj name="Swank couch 2" model="1753" />
+		<obj name="Chair" model="1704" />
+		<obj name="Chair 2" model="1705" />
+		<obj name="Chair 3" model="1708" />
+		<obj name="Chair 4" model="1711" />
+		<obj name="Chair 5" model="1721" />
+		<obj name="Chair 6" model="1724" />
+		<obj name="Chair 7" model="1727" />
+		<obj name="Chair 8" model="1729" />
+		<obj name="Chair 9" model="1735" />
+		<obj name="Chair 10" model="1755" />
+		<obj name="Chair 11" model="1758" />
+		<obj name="Chair 12" model="1759" />
+		<obj name="Chair 13" model="1765" />
+		<obj name="Chair 14" model="1767" />
+		<obj name="Chair 15" model="1769" />
+		<obj name="Chair 16" model="1810" />
+		<obj name="Chair 17" model="1663" />
+		<obj name="Chair 18" model="1562" />
+		<obj name="Chair 19" model="1671" />
+		<obj name="Dining chair" model="1811" />
+		<obj name="Swank chair" model="1739" />
+		<obj name="Swank chair 2" model="1754" />
+		<obj name="Swank chair 3" model="1762" />
+		<obj name="Restaurant chair" model="1720" />
+		<obj name="Swivel chair" model="1714" />
+		<obj name="Swivel chair 2" model="1715" />
+		<obj name="Swivel chair 3" model="1806" />
+		<obj name="Stool" model="1716" />
+		<obj name="Stool 2" model="1805" />
+		<obj name="Swank footstool" model="1746" />
+		<obj name="Table" model="1827" />
+		<obj name="Table 2" model="1594" />
+		<obj name="Table 3" model="1432" />
+		<obj name="Office table" model="1998" />
+		<obj name="Office table 2" model="1999" />
+		<!--<obj name="Office table 3" model="2008" />-->
+		<obj name="Dining table" model="1737" />
+		<obj name="Dining table 2" model="1770" />
+		<obj name="Dining table 3" model="2762" />
+		<obj name="Dining table 4" model="2763" />
+		<obj name="Dining table 5" model="2764" />
+		<obj name="Coffee table" model="1814" />
+		<obj name="Coffee table 2" model="1815" />
+		<obj name="Coffee table 3" model="1816" />
+		<obj name="Coffee table 4" model="1817" />
+		<obj name="Coffee table 5" model="1818" />
+		<obj name="Coffee table 6" model="1820" />
+		<obj name="Coffee table 7" model="1821" />
+		<obj name="Coffee table 8" model="1823" />
+		<obj name="Swank coffee table" model="1819" />
+		<obj name="Swank coffee table 2" model="1822" />
+		<obj name="Cabinet" model="1740" />
+		<obj name="Cabinet 2" model="1741" />
+		<obj name="Cabinet 3" model="1743" />
+		<obj name="Shelf" model="1744" />
+		<obj name="Bookshelf" model="1742" />
+		<obj name="Swank cabinet" model="1730" />
+		<obj name="Furniture" model="2136" />
+		<obj name="Furniture 2" model="2137" />
+		<obj name="Furniture 3 TV" model="2091" />
+		<obj name="Furniture 4 TV" model="2296" />
+		<obj name="Furniture 5" model="2200" />
+		<obj name="Furniture 6 Bed" model="2298" />
+		<obj name="Furniture 7" model="2423" />
+		<obj name="Furniture 8" model="2424" />
+		<obj name="Furniture 9" model="2434" />
+		<obj name="Furniture 10" model="2435" />
+		<obj name="Copy machine" model="2186" />
+		<obj name="Bath" model="2097" />
+		<obj name="Bath 2" model="2519" />
+		<obj name="Bath 3" model="2522" />
+		<obj name="Bath 4" model="2526" />
+		<obj name="Board" model="3077" />
+		<obj name="Billiards" model="2964" />
+		<obj name="Toilet pan" model="2514" />
+		<obj name="Sink" model="2518" />
+		<obj name="Sink 2" model="2524" />
+	</group>
+	<group name="[IN]Technics">
+		<obj name="TV" model="1717" />
+		<obj name="TV 2" model="1747" />
+		<obj name="TV 3" model="1748" />
+		<obj name="TV 4" model="1749" />
+		<obj name="TV 5" model="1750" />
+		<obj name="TV 6" model="1751" />
+		<obj name="TV 7" model="1781" />
+		<obj name="Swank TV" model="1752" />
+		<obj name="Swank TV 2" model="1786" />
+		<obj name="Swank TV 3" model="1791" />
+		<obj name="Swank TV 4" model="1792" />
+		<obj name="Console" model="1718" />
+		<obj name="Console 2" model="1719" />
+		<obj name="Video" model="1782" />
+		<obj name="Video 2" model="1785" />
+		<obj name="Video 3" model="1787" />
+		<obj name="Video 4" model="1809" />
+		<obj name="Swank video" model="1783" />
+		<obj name="Swank video 2" model="1788" />
+		<obj name="Swank video 3" model="1790" />
+		<obj name="Fridge" model="1780" />
+		<obj name="Grill" model="2415" />
+		<obj name="Grill 2" model="1481" />
+		<obj name="Watercooler" model="1808" />
+		<obj name="Washing machine" model="1208" />
+		<obj name="Audio" model="2099" />
+		<obj name="Audio 2" model="2103" />
+		<obj name="Speaker" model="2229" />
+		<obj name="Speaker 2" model="2230" />
+		<obj name="Speaker 3" model="2231" />
+		<obj name="Speaker 4" model="2232" />
+		<obj name="Speaker 5" model="2233" />
+		<obj name="Microwave" model="2421" />
+		<obj name="ATM" model="2942" />
+	</group>
+	<group name="[IN]Other">
+		<obj name="Radiator" model="1738" />
+		<obj name="Vending machine" model="1775" />
+		<obj name="Vending machine 2" model="1776" />
+		<obj name="Vending machine 3" model="1302" />
+		<obj name="Chambermaid trolley" model="1789" />
+		<obj name="Safe" model="1829" />
+		<obj name="Trainer" model="2627" />
+		<obj name="Trainer 2" model="2628" />
+		<obj name="Trainer 3" model="2629" />
+		<obj name="Trainer 4" model="2630" />
+	</group>
+</objects>

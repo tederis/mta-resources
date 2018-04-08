@@ -1,0 +1,16 @@
+<meta>
+ <info author="XRAY" version="0.1" name="Area tools" description="by XRAY" type="script" />
+ <oop>true</oop>
+
+ <script src="bytedata.lua" type="shared" />
+ <script src="server.lua" type="server" />
+ <script src="client.lua" type="client" />
+ 
+ <file src="shader.fx" />
+ 
+ <file src="placeholder.dds" />
+ 
+
+ <include resource="terrain_editor" />
+
+</meta>

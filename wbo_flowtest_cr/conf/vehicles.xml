@@ -1,0 +1,222 @@
+<vehicles>
+	<group name="Aircraft">
+		<vehicle model="548" name="Cargobob" />
+		<vehicle model="417" name="Leviathan" />
+		<vehicle model="487" name="Maverick" />
+		<vehicle model="488" name="News Chopper" />
+		<vehicle model="497" name="Police Maverick" />
+		<vehicle model="563" name="Raindance" />
+		<vehicle model="447" name="Seasparrow" />
+		<vehicle model="469" name="Sparrow" />
+		<vehicle model="592" name="Andromada" />
+		<vehicle model="577" name="AT-400" />
+		<vehicle model="511" name="Beagle" />
+		<vehicle model="512" name="Cropduster" />
+		<vehicle model="593" name="Dodo" />
+		<vehicle model="553" name="Nevada" />
+		<vehicle model="519" name="Shamal" />
+		<vehicle model="460" name="Skimmer" />
+		<vehicle model="513" name="Stuntplane" />
+	</group>
+	<group name="Bikes">
+		<vehicle model="581" name="BF-400" />
+		<vehicle model="462" name="Faggio" />
+		<vehicle model="521" name="FCR-900" />
+		<vehicle model="463" name="Freeway" />
+		<vehicle model="523" name="HPV1000" />
+		<vehicle model="522" name="NRG-500" />
+		<vehicle model="461" name="PCJ-600" />
+		<vehicle model="448" name="Pizza Boy" />
+		<vehicle model="468" name="Sanchez" />
+		<vehicle model="586" name="Wayfarer" />
+		<vehicle model="471" name="Quadbike" />
+		<vehicle model="509" name="Bike" />
+		<vehicle model="481" name="BMX" />
+		<vehicle model="510" name="Mountain bike" />
+	</group>
+	<group name="Boats">
+		<vehicle model="472" name="Coastguard" />
+		<vehicle model="473" name="Dinghy" />
+		<vehicle model="493" name="Jetmax" />
+		<vehicle model="595" name="Launch" />
+		<vehicle model="484" name="Marquis" />
+		<vehicle model="430" name="Predator" />
+		<vehicle model="453" name="Reefer" />
+		<vehicle model="452" name="Speeder" />
+		<vehicle model="446" name="Squalo" />
+		<vehicle model="454" name="Tropic" />
+	</group>
+	<group name="Cars">
+		<vehicle model="602" name="Alpha" />
+		<vehicle model="429" name="Banshee" />
+		<vehicle model="402" name="Buffalo" />
+		<vehicle model="541" name="Bullet" />
+		<vehicle model="415" name="Cheetah" />
+		<vehicle model="480" name="Comet" />
+		<vehicle model="562" name="Elegy" />
+		<vehicle model="587" name="Euros" />
+		<vehicle model="565" name="Flash" />
+		<vehicle model="411" name="Infernus" />
+		<vehicle model="559" name="Jester" />
+		<vehicle model="603" name="Phoenix" />
+		<vehicle model="560" name="Sultan" />
+		<vehicle model="506" name="Super GT" />
+		<vehicle model="451" name="Turismo" />
+		<vehicle model="558" name="Uranus" />
+		<vehicle model="555" name="Windsor" />
+		<vehicle model="477" name="ZR-350" />
+		<vehicle model="536" name="Blade" />
+		<vehicle model="575" name="Broadway" />
+		<vehicle model="518" name="Buccaneer" />
+		<vehicle model="419" name="Esperanto" />
+		<vehicle model="534" name="Remington" />
+		<vehicle model="567" name="Savanna" />
+		<vehicle model="535" name="Slamvan" />
+		<vehicle model="576" name="Tornado" />
+		<vehicle model="412" name="Voodoo" />
+		<vehicle model="496" name="Blista Compact" />
+		<vehicle model="401" name="Bravura" />
+		<vehicle model="527" name="Cadrona" />
+		<vehicle model="542" name="Clover" />
+		<vehicle model="533" name="Feltzer" />
+		<vehicle model="526" name="Fortune" />
+		<vehicle model="474" name="Hermes" />
+		<vehicle model="545" name="Hustler" />
+		<vehicle model="517" name="Majestic" />
+		<vehicle model="410" name="Manana" />
+		<vehicle model="436" name="Previon" />
+		<vehicle model="475" name="Sabre" />
+		<vehicle model="439" name="Stallion" />
+		<vehicle model="549" name="Tampa" />
+		<vehicle model="491" name="Virgo" />
+		<vehicle model="445" name="Admiral" />
+		<vehicle model="438" name="Cabbie" />
+		<vehicle model="507" name="Elegant" />
+		<vehicle model="585" name="Emperor" />
+		<vehicle model="466" name="Glendale" />
+		<vehicle model="492" name="Greenwood" />
+		<vehicle model="546" name="Intruder" />
+		<vehicle model="551" name="Merit" />
+		<vehicle model="516" name="Nebula" />
+		<vehicle model="467" name="Oceanic" />
+		<vehicle model="426" name="Premier" />
+		<vehicle model="547" name="Primo" />
+		<vehicle model="405" name="Sentinel" />
+		<vehicle model="580" name="Stafford" />
+		<vehicle model="409" name="Stretch" />
+		<vehicle model="550" name="Sunrise" />
+		<vehicle model="566" name="Tahoma" />
+		<vehicle model="420" name="Taxi" />
+		<vehicle model="540" name="Vincent" />
+		<vehicle model="421" name="Washington" />
+		<vehicle model="529" name="Willard" />
+	</group>
+	<group name="Emergency">
+		<vehicle model="416" name="Ambulance" />
+		<vehicle model="433" name="Barracks" />
+		<vehicle model="427" name="Enforcer" />
+		<vehicle model="490" name="FBI rancher" />
+		<vehicle model="528" name="FBI truck" />
+		<vehicle model="407" name="Fire truck" />
+		<vehicle model="544" name="Fire truck (ladder)" />
+		<vehicle model="596" name="Police car (LS)" />
+		<vehicle model="598" name="Police car (LV)" />
+		<vehicle model="597" name="Police car (SF)" />
+		<vehicle model="599" name="Police ranger" />
+		<vehicle model="601" name="S.W.A.T." />
+	</group>
+	<group name="Heavy Vehicles">
+		<vehicle model="524" name="Cement truck" />
+		<vehicle model="578" name="DFT-30" />
+		<vehicle model="486" name="Dozer" />
+		<vehicle model="406" name="Dumper" />
+		<vehicle model="573" name="Dune" />
+		<vehicle model="455" name="Flatbed" />
+		<vehicle model="530" name="Forklift" />
+		<vehicle model="403" name="Linerunner" />
+		<vehicle model="443" name="Packer" />
+		<vehicle model="515" name="Roadtrain" />
+		<vehicle model="574" name="Sweeper" />
+		<vehicle model="514" name="Tanker" />
+		<vehicle model="525" name="Towtruck" />
+		<vehicle model="408" name="Trashmaster" />
+		<vehicle model="552" name="Utility van" />
+		<vehicle model="606" name="Baggage trailer (covered)" />
+		<vehicle model="607" name="Baggage trailer (Uncovered)" />
+		<vehicle model="610" name="Farm trailer" />
+		<vehicle model="537" name="Freight train" />
+		<vehicle model="590" name="Freight train boxcar" />
+		<vehicle model="569" name="Freight train flatbed" />
+		<vehicle model="611" name="Street Clean trailer" />
+		<vehicle model="584" name="Gas trailer" />
+		<vehicle model="608" name="Trailer 1" />
+		<vehicle model="435" name="Trailer 2" />
+		<vehicle model="450" name="Trailer 3" />
+		<vehicle model="591" name="Trailer 4" />
+		<vehicle model="499" name="Benson" />
+		<vehicle model="609" name="Black Boxville" />
+		<vehicle model="422" name="Bobcat" />
+		<vehicle model="498" name="Boxville" />
+		<vehicle model="414" name="Mule" />
+		<vehicle model="600" name="Picador" />
+		<vehicle model="543" name="Sadler" />
+		<vehicle model="428" name="Securicar" />
+		<vehicle model="478" name="Walton" />
+		<vehicle model="456" name="Yankee" />
+		<vehicle model="554" name="Yosemite" />
+		<vehicle model="459" name="Berkley's RC van" />
+		<vehicle model="482" name="Burrito" />
+		<vehicle model="483" name="Camper" />
+		<vehicle model="508" name="Journey" />
+		<vehicle model="418" name="Moonbeam" />
+		<vehicle model="582" name="News van" />
+		<vehicle model="413" name="Pony" />
+		<vehicle model="440" name="Rumpo" />
+	</group>
+	<group name="Misc">
+		<vehicle model="485" name="Baggage" />
+		<vehicle model="568" name="Bandito" />
+		<vehicle model="424" name="BF Injection" />
+		<vehicle model="504" name="Bloodring Banger" />
+		<vehicle model="538" name="Brownstreak Engine" />
+		<vehicle model="431" name="Bus" />
+		<vehicle model="457" name="Caddy" />
+		<vehicle model="437" name="Coach" />
+		<vehicle model="532" name="Combine harvester" />
+		<vehicle model="588" name="Hotdog" />
+		<vehicle model="434" name="Hotknife" />
+		<vehicle model="494" name="Hotring racer" />
+		<vehicle model="502" name="Hotring racer 2" />
+		<vehicle model="503" name="Hotring racer 3" />
+		<vehicle model="444" name="Monster" />
+		<vehicle model="556" name="Monster 2" />
+		<vehicle model="557" name="Monster 3" />
+		<vehicle model="572" name="Mower" />
+		<vehicle model="423" name="Mr. Whoopee" />
+		<vehicle model="571" name="Kart" />
+		<vehicle model="531" name="Tractor" />
+		<vehicle model="449" name="Trolly" />
+		<vehicle model="583" name="Tug" />
+		<vehicle model="539" name="Vortex" />
+		<vehicle model="441" name="RC Bandit" />
+		<vehicle model="464" name="RC Baron" />
+		<vehicle model="594" name="RC Flower Pot" />
+		<vehicle model="501" name="RC Goblin" />
+		<vehicle model="465" name="RC Raider" />
+		<vehicle model="564" name="RC Tiger" />
+	</group>
+	<group name="SUVs and Wagons">
+		<vehicle model="589" name="Club" />
+		<vehicle model="579" name="Huntley" />
+		<vehicle model="400" name="Landstalker" />
+		<vehicle model="500" name="Mesa" />
+		<vehicle model="470" name="Patriot" />
+		<vehicle model="404" name="Perennial" />
+		<vehicle model="489" name="Rancher" />
+		<vehicle model="479" name="Regina" />
+		<vehicle model="442" name="Romero" />
+		<vehicle model="495" name="Sandking" />
+		<vehicle model="458" name="Solair" />
+		<vehicle model="561" name="Stratum" />
+	</group>
+</vehicles>

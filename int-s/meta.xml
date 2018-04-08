@@ -1,0 +1,13 @@
+<meta>
+ <info author="XRAY" version="0.1" name="Interactive" description="by XRAY" type="script" />
+  <min_mta_version client="1.3.0-9.03931" server="1.3.0" />
+ <script src="libs.lua" type="client" />
+ <script src="client.lua" type="client" />
+ <script src="libs.lua" type="server" />
+ <script src="server.lua" type="server" />
+ 
+ <file src="image/interactive.png"/>
+ 
+ <export function="isEntityInteractive" type="client"/>
+ 
+</meta>

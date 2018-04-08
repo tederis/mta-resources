@@ -1,0 +1,54 @@
+<meta>
+	<info author="TEDERIs" version="0.1" name="Tire smoke" description="Tire smoke" type="script" />
+
+	<oop>true</oop>
+
+	<script src="PAPI.lua" type="client" />
+	<script src="client.lua" type="client" />
+	<script src="bytedata.lua" type="server" />
+	<script src="geometry.lua" type="server" />
+	<script src="utils.lua" type="server" />
+	
+	<file src="effects/electra_disk.xml" />
+	<file src="effects/anomaly_electra_idle_sparks.xml" />
+	<file src="effects/anomaly_studen.xml" />
+	<file src="effects/flame_burst_line_up.xml" />
+	<file src="effects/gravi_shield_wave.xml" />
+	<file src="effects/gravi_vacuum_idle_leaves.xml" />
+	<file src="effects/gravi_shield_idle.xml" />
+	<file src="effects/gravity_shield_dist.xml" />
+	<file src="effects/campfire_flame.xml" />
+	<file src="effects/campfire_smoke.xml" />
+	<file src="effects/campfire_sparks.xml" />
+	<file src="effects/campfire_vacum.xml" />
+	<file src="effects/campfire_glow.xml" />
+	<file src="effects/exhaust_workshop_1_small.xml" />
+	<file src="effects/exhaust_workshop_1_static.xml" />
+	
+	<file src="shaders/mta-helper.fx"/>
+	<file src="shaders/shader.fx" />
+	<file src="shaders/add.fx" />
+	<file src="shaders/blend.fx" />
+	<file src="shaders/blend_internal.fx" />
+	<file src="shaders/alpha_add.fx" />
+	<file src="shaders/xdistort.fx" />
+	
+	<file src="textures/pfx_ligth_6.dds" />
+	<file src="textures/pfx_anomaly_16.dds" />
+	<file src="textures/pfx_flame_01.dds" />
+	<file src="textures/pfx_dist2.dds" />
+	<file src="textures/pfx_anomaly_19.dds" />
+	<file src="textures/pfx_leaves_01.dds" />
+	<file src="textures/pfx_dist2.dds" />
+	<file src="textures/pfx_ani-fire01.dds" />
+	<file src="textures/pfx_smoke_b.dds" />
+	<file src="textures/pfx_smoke_a.dds" />
+	<file src="textures/glow_fire1.dds" />
+	<file src="textures/pfx_anomaly_2_green.dds" />
+	<file src="textures/pfx_smokepuffs1.dds" />
+	<file src="textures/pump_smoke_06.png" />
+	
+	<file src="models/fxmesh.col" />
+	<file src="models/fxmesh.txd" />
+	<file src="models/fxmesh.dff" />
+</meta>

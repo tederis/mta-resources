@@ -1,0 +1,9 @@
+<graph owner="XRAY" public="0" name="test22">
+    <node id="9y15Z417JV" tag="_ActionEnt" posX="-264" posY="-51" linkedID="36B90hoRF5"></node>
+    <node id="eD4ud2y06G" tag="Game:ChatBox" posX="13" posY="-37">
+        <property index="2" value="nil"></property>
+        <property index="3" value="tesr222"></property>
+    </node>
+    <edge id="8x0a0691i3" nodeSrc="9y15Z417JV" portSrc="1" nodeDst="eD4ud2y06G" portDst="1"></edge>
+    <edge id="5u84wR91zI" nodeSrc="9y15Z417JV" portSrc="1" nodeDst="eD4ud2y06G" portDst="2"></edge>
+</graph>

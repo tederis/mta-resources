@@ -1,0 +1,52 @@
+<snapmodels>
+	<model model="10008">
+		<point x="-1.5" y="0" z="0" />
+		<point x="1.5" y="0" z="0" />
+		<point x="0" y="0" z="-0.75" />
+		<point x="0" y="0" z="0.75" />
+	</model>
+	<model model="10009">
+		<point x="-0.5" y="0" z="0" />
+		<point x="0.5" y="0" z="0" />
+		<point x="0" y="0" z="-0.75" />
+		<point x="0" y="0" z="0.75" />
+	</model>
+	<model model="10010">
+		<point x="-0.25" y="0" z="0" />
+		<point x="0.25" y="0" z="0" />
+		<point x="0" y="0" z="-0.75" />
+		<point x="0" y="0" z="0.75" />
+	</model>
+	<model model="10011">
+		<point x="-1.5" y="0" z="0" />
+		<point x="1.5" y="0" z="0" />
+		<point x="0" y="0" z="-0.5" />
+		<point x="0" y="0" z="0.5" />
+	</model>
+	<model model="10012">
+		<point x="-0.25" y="0" z="0" />
+		<point x="0.25" y="0" z="0" />
+		<point x="0" y="0" z="-0.5" />
+		<point x="0" y="0" z="0.5" />
+	</model>
+	<model model="10013">
+		<point x="-0.5" y="0" z="0" />
+		<point x="0.5" y="0" z="0" />
+		<point x="0" y="0" z="-0.5" />
+		<point x="0" y="0" z="0.5" />
+	</model>
+	<model model="10014">
+		<point x="-1.25" y="0" z="0.75" />
+		<point x="1.25" y="0" z="-0.75" />
+		<point x="0.25" y="1.5" z="-0.75" />
+		<point x="0.25" y="-1.5" z="-0.75" />
+		<point x="0.25" y="0" z="-0.75" />
+	</model>
+	
+	<model model="3095">
+		<point x="-4.5" y="0" z="0.25" />
+		<point x="4.5" y="0" z="0.25" />
+		<point x="0" y="-4.5" z="0.25" />
+		<point x="0" y="4.5" z="0.25" />
+	</model>
+</snapmodels>

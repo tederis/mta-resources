@@ -1,0 +1,11 @@
+<meta>
+ <info author="TEDERIs" version="0.1" name="GM" description="TEDERIs gamemode" type="script" />
+ <script src="client.lua" type="client" />
+ <script src="server.lua" type="server" />
+ 
+ <include resource="gm-world" />
+ <include resource="gm-weaponshop" />
+ <include resource="gm-foodshop" />
+ <include resource="gm-garage" />
+ <include resource="interiors" />
+</meta>

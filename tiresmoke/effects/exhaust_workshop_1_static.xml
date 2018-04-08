@@ -1,0 +1,19 @@
+<effect name="exhaust_workshop_1_small" maxParticles="30" >
+	<sprite texture="pfx_smokepuffs1" shader="blend" >
+		<frame count="8" sizeU="0.25" sizeV="0.5" />
+	</sprite>
+	<actions>
+		<action name="KillOld" ageLimit="1" />
+		<action name="Source" rate="30" startingAge="0.1" ageSigma="0" parentMotion="0" allowRotate="true">
+			<domain type="point" point1="0,0,0" />
+			<velocity type="line" point1="0,0,0" point2="0,0,0" />
+			<rotation type="line" point1="-360,0,-360" point2="360,0,360" />
+			<size type="point" point1="0.110,0.110,0.110" />
+			<color type="line" point1="230,230,230" point2="250,250,250" alpha="50"/>
+		</action>	
+		<action name="TargetColor" color="255,255,255" alpha="0" scale="0.5" timeFrom="0" timeTo="1" />
+		<action name="TargetSize" size="5,0.001,5" scale="1,0,1" />
+		<action name="TargetRotate" rotation="130.241,0,0" scale="0.03" />
+		<action name="Move" />
+	</actions>
+</effect>	

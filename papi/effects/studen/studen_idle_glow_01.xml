@@ -1,0 +1,18 @@
+<effect name="studen/studen_idle_glow_01" maxParticles="7" >
+	<sprite texture="glow_fire1" shader="add" />
+	<movement>
+		<velocityScale value="0,0,0.02" />
+	</movement>
+	<actions>
+		<action name="KillOld" ageLimit="0.3" />
+		<action name="Source" rate="17" singleSize="true" startingAge="0" ageSigma="0" parentMotion="0" allowRotate="true">
+			<domain type="disc" center="0,0,0.08" normal="0,0,1" radiusInner="0" radiusOuter="1" />
+			<velocity type="point" point1="0,0,0" />
+			<rotation type="point" point1="-180,0,0" />
+			<size type="line" point1="3.5,3.5,3.5" point2="3,3,3" />
+			<color type="line" point1="0,63,17" point2="45,107,63" alpha="217"/>
+		</action>
+		<action name="TargetColor" color="0,0,0" alpha="255" scale="2" timeFrom="0" timeTo="1"/>
+		<action name="Move" draw="false" enabled="true"/>
+	</actions>
+</effect>

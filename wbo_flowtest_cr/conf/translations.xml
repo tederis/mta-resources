@@ -1,0 +1,219 @@
+<translations>
+	<string name="MFCreate" ru="Создать" en="Create" />
+	<string name="MF_TObjects" ru="Объекты" en="Objects" />
+	<string name="MF_TVehicles" ru="Авто" en="Vehicles" />
+	<string name="MF_TPeds" ru="Педы" en="Peds" />
+	<string name="MF_TRooms" ru="Комнаты" en="Rooms" />
+	<string name="MF_TGraphs" ru="Схемы" en="Graphs" />
+	<string name="MF_TScripts" ru="Скрипты" en="Scripts" />
+	<string name="MF_TTools" ru="Инструменты" en="Tools" />
+	<string name="MF_TSettings" ru="Настройки" en="Settings" />
+	
+	<string name="MF_SStep" ru="Шаг" en="Step" />
+	<string name="MF_SRot" ru="Вращение" en="Rotation" />
+	<string name="MF_SSaveOff" ru="Сохранять смещение" en="Save offset" />
+	<string name="MF_SHelp" ru="Помощник" en="Helper" />
+	<string name="MF_SEditorM" ru="Режим редактирования" en="Edit mode" />
+	<string name="MF_SToggle" ru="Удерживать окно" en="Toggle window" />
+	<string name="MF_SEInfo" ru="Информация об объекте" en="Entity info" />
+	<string name="MF_SDebug" ru="Отладка" en="Debug" />
+	<string name="MF_SMatDisable" ru="Отключить загрузку материалов" en="Disable materials" />
+	<string name="MF_SLang" ru="Язык" en="Language" />
+	<string name="MF_SResetOff" ru="Сброс смещения" en="Reset offset" />
+	
+	<string name="MF_SRandZ" ru="Ранд. вращение" en="Rand. rotation" />
+	<string name="MF_SRandScale" ru="Ранд. масштаб" en="Rand. scale" />
+	
+	<string name="MFMsgOCreateWarn" ru="Объект с такой моделью не может быть создан" en="Wrong model" />
+	
+	
+	
+	<string name="TRemove_OA" ru="Только приклеенные" en="Only attached" />
+	
+	<string name="TAlpha_Trans" ru="Прозрачность" en="Transparency" />
+	
+	<string name="TMaterial_Mat" ru="Материал" en="Material" />
+	<string name="TMaterial_U" ru="U масштаб" en="U scale" />
+	<string name="TMaterial_V" ru="V масштаб" en="V scale" />
+	
+	<string name="TSign_Mdl" ru="Модель" en="Model" />
+	<string name="TSign_Txt" ru="Текст" en="Text" />
+	
+	<string name="TLock_Pass" ru="Пароль" en="Password" />
+	
+	<string name="TTrigger_Size" ru="Размер" en="Size" />
+	
+	<string name="TLaser_Lnh" ru="Длина луча" en="Length" />
+	<string name="TLaser_CBuild" ru="Проверять здания" en="Check buildings" />
+	<string name="TLaser_CVehs" ru="Проверять авто" en="Check vehicles" />
+	<string name="TLaser_CPlayer" ru="Проверять игроков" en="Check players" />
+	<string name="TLaser_CObjs" ru="Проверять объекты" en="Check objects" />
+	
+	<string name="TPath_Rot" ru="Вращение" en="Rotation" />
+	
+	<string name="TEmpty_Name" ru="Имя" en="Name" />
+	
+	<string name="TAction_Itms" ru="Действия(через запятую)" en="Actions(with a comma)" />
+	<string name="TAction_Off" ru="Смещение" en="Offset" />
+	
+	<string name="TWeapTp" ru="Тип" en="Type" />
+	
+	<string name="TDataWarn" ru="TCT: Ключ должен содержать не меньше 3х символов" en="TCT: The key must contain at least 3 characters" />
+	<string name="TDataWarn2" ru="TCT: Числа в начале ключа недопустимы" en="TCT: The numbers at the start of the text are not allowed" />
+	<string name="TDataWarn3" ru="TCT: Ключ или значение содержит недопустимые символы" en="TCT: Key or value contains illegal characters" />
+	
+	<string name="TFEditorNm" ru="Название" en="Name" />
+	
+	
+	
+	<!-- Catalog -->
+	<string name="CatCreateRoom" ru="Создать комнату" en="Create room" />
+	<string name="CatCreateGraph" ru="Создать схему" en="Create graph" />
+	<string name="CatTxt" ru="комнату с именем" en="graph with name" />
+	<string name="CatEdit" ru="Изменить" en="Edit" />
+	<string name="CatTab1" ru="Мои схемы" en="My graphs" />
+	<string name="CatTab2" ru="Каталог" en="Сatalog" />
+	<string name="CatBtn2S1" ru="Прикрепить" en="Attach" />
+	<string name="CatBtn2S2" ru="Открепить" en="Detach" />
+	
+	<!-- GLC gui -->
+	<string name="GlcPubAcc" ru="Публичный доступ" en="Public access" />
+	<string name="GlcReset" ru="Сброс смещения" en="Reset offset" />
+	
+	<!-- NEWorkspace -->
+	<string name="NEWSMsg1" ru="Чтобы собрать схему и выйти из редактора нажмите [E]" en="To build the graph and exit the editor press [E]" />
+	<string name="NEWSMsg2" ru="Выберите объект для крепления нода" en="Select an element to attach a node" />
+	<string name="NEWSBoxLbl" ru="Редактор схем: Cовет #" en="Flow editor: Tip #" />
+	<string name="NEWSTip1" ru="Для того чтобы добавить игровой объект на рабочее пространство дважды кликните по нему. Для перемещения по миру во время редактирования нажмите и удерживайте [ПКМ]." en="To add an game entity on the workspace, just double-click on it. To move through the world press and hold [RMB]." />
+	<string name="NEWSTip2" ru="Для того чтобы удалить нод дважды кликните по нему. Нод будет удален вместе со связями." en="To delete a node double-click on it. The node will be removed together with the edges." />
+	<string name="NEWSTip3" ru="Для того чтобы сохранить схему нажмите [E]" en="In order to save the graph press [E]" />
+	<string name="NEWSTip4" ru="Вы можете запретить просмотр вашей схемы. Для этого уберите галочку с поля 'Public access' в окне 'Settings'." en="You can restrict access to your graph. To do this remove the check mark from the control 'Public access' in the Settings window." />
+	<string name="NEWSCatLbl" ru="Вы хотите сохранить схему в каталоге?" en="Save the graph in the catalog?" />
+	<string name="NEWSCatApplyLbl" ru="Вы хотите применить схему ко всем элементам?" en="Apply the graph to all elements?" />
+	<string name="NEWSCatApply" ru="Сохранить и применить" en="Save and apply" />
+	<string name="NEWSCatApplyC" ru="Сохранить" en="Save" />
+	
+	<string name="NEWSCatSave" ru="Сохранить" en="Save" />
+	<string name="NEWSCatCancel" ru="Выйти" en="Сlose" />
+	<string name="NEWSWarnMsg1" ru="Вы не можете присоединить нод к самому себе" en="You can not attach a node to itself" />
+	<string name="NEWSWarnMsg2" ru="Вы не можете соединить порты одинакового типа" en="You can not connect the ports of the same type" />
+	<string name="NEWSTargerPort" ru="Элемент прикрепляемый к обработчику нода" en="An element attached to the handler" />
+	<string name="NEWSDialog1Lbl" ru="Продолжить или создать копию?" en="Edit or create a copy?" />
+	<string name="NEWSDialog1Itm1" ru="Продолжить" en="Edit" />
+	<string name="NEWSDialogCopy" ru="Создать копию" en="Copy" />
+	<string name="NEWSDialog2Lbl" ru="Вы не можете изменить чужую схему" en="You can not change someone else's graph" />
+	<string name="NEWSDialog2Itm1" ru="Отмена" en="Cancel" />
+
+
+	<string name="MEPermission" ru="Вы не можете работать с чужим объектом" en="You can not work with someone else's object" />
+	<string name="MEGrabBl" ru="Перемещение объектов такого типа заблокировано" en="Moving objects of this type is blocked" />
+	
+	<string name="TMsgWorksObjOnly" ru="Этот инструмент работает только с объектами" en="This tool works with objects" />
+	<string name="TMsgWorksObjVehOnly" ru="Этот инструмент работает только с объектами и транспортными средствами" en="This tool works with objects and vehicles" />
+	<string name="TMsgCopyWarn" ru="Вы не можете скопировать этот объект" en="You can not copy the object" />
+	<string name="TPathMsg_NodeCntW" ru="Для создания пути необходимо указать не меньше 1 точки" en="To create a path, you must specify at least 1 node" />
+	<string name="TPathMsg_PressE" ru="Нажмите 'e' для завершения пути" en="Press 'e' to create the path" />
+	<string name="TPathMsg_NodeCntW2" ru="Вы не можете указать свыше 40 точек для одного пути" en="You can not specify more than 40 nodes for one path" />
+	
+	<string name="TActionMsg_Warn1" ru="Вы можете добавить не менее одного и не более 10 действий" en="You can specify from 1 to 10 actions" />
+	<string name="TActionMsg_Warn2" ru="Название действия не может быть длиннее 12 символов" en="The action name can not be longer than 12 characters" />
+	<string name="TActionMsg_Warn3" ru="Смещение должно содержать 3 значения через запятую" en="Offset must contain three values ​​separated by commas" />
+	<string name="TActionMsg_Warn4" ru="Смещение введено с ошибками" en="The offset is not correct" />
+	
+	<string name="TGraphMsh_Info1" ru="Идет создание графа. Подождите..." en="Creating a graph. Wait ..." />
+
+
+	<!-- Common node strings -->
+	<string name="NEPlayer" ru="Игрок" en="Player" />
+	<string name="NEText" ru="Текст" en="Text" />
+
+	<!-- Node strings -->
+	<string name="NEBtnDown" ru="Вызывается всякий раз при нажатии на кнопку" en="Called whenever the button is pressed" />
+	<string name="NEBtnUp" ru="Вызывается всякий раз при отпускании кнопки" en="Called whenever the button is released" />
+	<string name="NEBtnIndex" ru="Содержит индекс выбранного действия в меню" en="The index of the selected row" />
+	
+	<string name="NELaserHit" ru="Вызывается когда игрок сталкивается с лазером" en="Called whenever a player hits a laser" />
+	<string name="NELaserLeave" ru="Вызывается когда игрок освобождает лазер" en="Called whenever a player leaves the laser" />
+	
+	<string name="NETriggerHit" ru="Событие происходит всякий раз при входе в триггер<wbo:trigger> игрока [Player]" en="Called whenever a player[Player] hits a trigger<wbo:trigger>" />
+	<string name="NETriggerLeave" ru="Событие происходит всякий раз при выходе из триггера<wbo:trigger> игрока [Player]" en="Called whenever a player[Player] leaves the trigger<wbo:trigger>" />
+	<string name="NETriggerNum" ru="Количество игроков в триггере<wbo:trigger>" en="The number of players in the trigger<wbo:trigger>" />
+	
+	<string name="NMSignSet"ru="Задает текст [Text] табличке <object>" en="Sets the text[Text] on the sign<object>" />
+	
+	<string name="NEAreaHit" ru="Событие происходит всякий раз при входе в участок<wbo:area> игрока [Player]" en="Called whenever a player[Player] enters the area<wbo:area>" />
+	<string name="NEAreaLeave" ru="Событие происходит всякий раз при выходе из участка<wbo:area> игрока [Player]" en="Called whenever a player[Player] leaves the area<wbo:area>" />
+	<string name="NEAreaNum" ru="Количество игроков в участке<wbo:area>" en="The number of players in the area<wbo:area>" />
+	
+	<string name="NMKeypadShow" ru="Показывает на экране игрока панель" en="Show player keypad" />
+	<string name="NEKeypadInput" ru="Вызывается при вводе кода и выдает его в поток" en="Called when a player enters a code and gives it to the stream" />
+	
+	<string name="NIChatBoxShow" ru="Показывает сообщение владельцу схемы" en="Sends a message to the owner of the graph" />
+	<string name="NIChatBoxMsg" ru="Текст сообщения" en="Text" />
+	
+	<!-- Vehicle nodes -->
+	<string name="NEVehVehStEnt" ru="Вызывается всякий раз при попытке войти в авто" en="This event is triggered when a player<Player> starts to enter a vehicle<vehicle>" />
+	<string name="NEVehVehStExit" ru="Вызывается всякий раз при попытке выйти из авто" en="This event is triggered when a player<Player> starts to exit a vehicle<vehicle>" />
+	
+	<string name="NMVehLockIsLock" ru="Проверяет состояние блокировки авто<vehicle>" en="Check the lock status" />
+	<string name="NEVehLockLocked" ru="Вызывается когда авто<vehicle> заблокировано" en="Called when the vehicle<vehicle> is locked" />
+	<string name="NEVehLockUnlocked" ru="Вызывается когда авто<vehicle> разблокировано" en="Called when the vehicle<vehicle> is unlocked" />
+	
+	<!-- Tool nodes -->
+	<string name="NEToolScriptOwner" ru="Имя владельца схемы" en="Name of the owner of graph" />
+	
+	<!-- Entity nodes -->
+	<string name="NMEntSndStop" ru="Останавливает проигрывание звука" en="Stops the sound" />
+	
+	<!-- Room catalog -->
+	<string name="RCCBack" ru="<< Назад" en="<< Back" />
+	<string name="RCCText" ru="Введите название и нажмите Продолжить." en="Enter a name and click Continue" />
+	<string name="RCCCont" ru="Продолжить" en="Continue" />
+	<string name="RCCWarn" ru="TCT: Название комнаты должно содержать не меньше 3х символов" en="TCT: Room name must contain at least 3 characters" />
+	
+	<string name="RCMCreate" ru="Создать комнату" en="Create room" />
+	<string name="RCMRooms" ru="Комнаты" en="Rooms" />
+	<string name="RCMAdmin" ru="Админ" en="Admin" />
+	<string name="RCMWarn" ru="TCT: Вы должны выбрать комнату" en="You must select a room" />
+	<string name="RCMSett" ru="Настройки" en="Setting" />
+	<string name="RCMMods" ru="Моды" en="Mods" />
+	<string name="RCMRemove" ru="Удалить" en="Remove" />
+	
+	<string name="RCALbl" ru="Комната / Администрирование" en="Room / Administration" />
+	
+	<string name="RCSLbl" ru="Комната / Настройки" en="Room / Setting" />
+	<string name="RCSPass" ru="Пароль(клик здесь для сохранения)" en="Password(click to save)" />
+	<string name="RCSNoObj" ru="Не создавать объекты для Everyone" en="Do not create objects for Everyone" />
+	<string name="RCSClear" ru="Очистить карту" en="Clear map" />
+	
+	<string name="RCLMAvMods" ru="Доступные моды" en="Available mods" />
+	<string name="RCLMWarn" ru="TCT: Вы должны выбрать мод" en="TCT: You must select a mod" />
+	
+	<string name="RCMAddMod" ru="+Добавить мод" en="+Add mod" />
+	<string name="RCMLbl" ru="Комната / Моды" en="Room / Mods" />
+	
+	<string name="RCGAddGr" ru="+Добавить схему" en="+Add graph" />
+	<string name="RCGMsg" ru="TCT: Двойной клик по схеме чтобы ее добавить" en="TCT: Double click on the graph to add it" />
+	<string name="RCGLbl" ru="Комната / Схемы" en="Room / Graphs" />
+	<string name="RCGWarn" ru="TCT: Вы должны выбрать схему" en="TCT: You must select a graph" />
+	
+	<string name="RCSAddSc" ru="+Добавить скрипт" en="+Add script" />
+	<string name="RCSLbl" ru="Комната / Скрипты" en="Room / Scripts" />
+	<string name="RCSMsg" ru="TCT: Двойной клик по скрипту чтобы его добавить" en="TCT: Double click on the script to add it" />
+	
+	<string name="RCPassLbl" ru="Требуется ввести пароль" en="A password is required" />
+	
+	<!-- Graph catalog -->
+	<string name="GCCreate" ru="Создать схему" en="Create graph" />
+	<string name="GCGraphs" ru="Схемы" en="Graphs" />
+	<string name="GCEdit" ru="Изменить" en="Edit" />
+	<string name="GCGrLoad" ru="TCT: Схема еще загружается..." en="TCT: The graph is still loading ..." />
+	<string name="GCWarn" ru="TCT: Название схемы должно содержать не меньше 5 символов" en="TCT: Graph name must contain at least 5 characters" />
+	
+	<!-- Script catalog -->
+	<string name="SCCreate" ru="Создать скрипт" en="Create script" />
+	<string name="SCScripts" ru="Скрипты" en="Scripts" />
+	<string name="SCWarn" ru="TCT: Название скрипта должно содержать не меньше 5 символов" en="TCT: Script name must contain at least 5 characters" />
+	<string name="SCWarn2" ru="TCT: Вы должны выбрать скрипт" en="TCT: You must select a script" />
+	<string name="SCGrLoad" ru="TCT: Скрипт еще загружается..." en="TCT: The script is still loading ..." />
+</translations>

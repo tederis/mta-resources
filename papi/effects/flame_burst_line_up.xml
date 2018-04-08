@@ -1,0 +1,22 @@
+<effect name="flame_burst_line_up" maxParticles="32" >
+	<sprite texture="pfx_flame_01" shader="add" />
+	<movement>
+		<alignToPath faceAlign="false" defaultWorldAlign="false" defaultRotate="-90,0,0" />
+		<velocityScale value="0,0,0.10" />
+	</movement>
+	<actions>
+		<action name="KillOld" ageLimit="1" killLessThan="false" draw="true" enabled="true"/>
+		<action name="Source" rate="32" singleSize="false" startingAge="0" ageSigma="0" parentMotion="0" allowRotate="true" draw="true" enabled="true">
+			<domain type="line" point1="-0.050,0.050,-0.300" point2="0.050,0.050,-0.750" />
+			<velocity type="box" point1="0,0,6" point2="0,0,9" />
+			<rotation type="line" point1="0,0,-90" point2="0,0,90" />
+			<size type="box" point1="0.030,0,0.30" point2="0.037,0,0.037" />
+			<color type="point" point1="105,105,105" alpha="1"/>
+		</action>
+		<action name="TargetColor" color="29,33,61" alpha="0" scale="10" timeFrom="0" timeTo="1" draw="true" enabled="true"/>
+		<action name="TargetSize" size="2,2,2" scale="5,5,5" draw="true" enabled="true"/>
+		<action name="Gravity" direction="0,0,5"/>
+		<action name="Turbulence" frequency="1" octaves="2" magnitude="4" delta="0.080" movement="1,1,1"/>
+		<action name="Move" draw="false" enabled="true"/>
+	</actions>
+</effect>

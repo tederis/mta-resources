@@ -1,0 +1,4 @@
+<meta>
+    <info author="XRAY" name="FPS" version="0.1" type="script"/>
+    <script src="client.lua" type="client"/>
+</meta>

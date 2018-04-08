@@ -1,0 +1,10 @@
+<meta>
+	<info author="TEDERIs" version="0.1" name="missionmanager" description="Mission manager" type="script" />
+	<script src="client.lua" type="client" />
+	<script src="server.lua" type="server" />
+	
+	<export function="createMission" type="server" />
+	<export function="setPlayerMission" type="server" />
+	<export function="getPlayerMission" type="server" />
+	<export function="isPlayerMission" type="server" />
+</meta>

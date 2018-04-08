@@ -1,0 +1,70 @@
+<meta>
+    <info author="TEDERIs" name="TerrainEditor" type="script" version="0.5" />
+    <oop>true</oop>
+    
+    <script src="util_client.lua" type="client" />
+    <script src="FastDFF.lua" type="client" />
+    <script src="bytedata.lua" type="shared" />
+    <script src="client.lua" type="client" />
+    <script src="server.lua" type="server" />
+    <script src="world_server.lua" type="server" />
+    <script src="world_client.lua" type="client" />
+    
+    <file src="weathers\weather_default.ltx" />
+    
+    <file src="mta-helper.fx" />
+    <file src="shader.fx" />
+    <file src="area.fx" />
+    
+    <file src="textures/detail_grnd_grass.dds" />
+    <file src="textures/detail_grnd_asphalt.dds" />
+    <file src="textures/detail_grnd_earth.dds" />
+    <file src="textures/detail_grnd_yantar.dds" />
+    <file src="textures/detail_grnd_sand.dds" />
+    <file src="textures/detail_grnd_leaves.dds" />
+    <file src="textures/detail_grnd_cracked.dds" />
+    <file src="textures/detail_grnd_plates.dds" />
+    <file src="textures/terrain_jupiter_mask.dds" />
+    <file src="textures/back.dds" />
+    <file src="textures/attributes.png" />
+    <file src="textures/heightfield.png" />
+    
+    <file src="images/raiseHeight_d.png" />
+    <file src="images/raiseHeight_h.png" />
+    <file src="images/raiseHeight_n.png" />
+    <file src="images/lowerHeight_d.png" />
+    <file src="images/lowerHeight_h.png" />
+    <file src="images/lowerHeight_n.png" />
+    <file src="images/smoothHeight_d.png" />
+    <file src="images/smoothHeight_h.png" />
+    <file src="images/smoothHeight_n.png" />
+    <file src="images/flattenHeight_d.png" />
+    <file src="images/flattenHeight_h.png" />
+    <file src="images/flattenHeight_n.png" />
+    <file src="images/boxBrush_d.png" />
+    <file src="images/boxBrush_h.png" />
+    <file src="images/boxBrush_n.png" />
+    <file src="images/circleBrush_d.png" />
+    <file src="images/circleBrush_h.png" />
+    <file src="images/circleBrush_n.png" />
+    <file src="images/circle-filled.png" />
+    
+    <file src="shaders/mta-helper.fx" />
+    <file src="shaders/rect.fx" />
+    
+    <file src="pattern.col" />
+    <file src="pattern.dff" />
+    <file src="pattern.txd" />
+    
+    <config src="help.xml" type="client" />
+    
+    <script src="_compile.lua" type="server" />
+    
+    <export function="getTerrainHeight" type="client" />
+    <export function="getTerrainSector" type="client" />
+    <export function="isTerrainSectorStreamedIn" type="client" />
+    <export function="getChannelMasks" type="client" />
+    
+    <include resource="freecam" />
+    <include resource="xrskybox" />
+</meta>

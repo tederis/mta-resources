@@ -1,0 +1,17 @@
+<effect name="gravi_shield_idle" maxParticles="1" >
+	<sprite texture="pfx_anomaly_19" shader="alpha_add" />
+	<actions>
+		<action name="KillOld" ageLimit="2" enabled="true"/>
+		<action name="Source" rate="1" singleSize="true" startingAge="0" ageSigma="0" parentMotion="0" allowRotate="true" enabled="true">
+			<domain type="point" point1="0,0,0.250" />
+			<velocity type="point" point1="0,0,-0.680" />
+			<rotation type="line" point1="-360,0,-360" point2="360,0,360" />
+			<size type="line" point1="10,10,10" point2="9,9,9" />
+			<color type="point" point1="54,54,54" alpha="72"/>
+		</action>
+		<action name="TargetColor" color="66,66,66" alpha="255" scale="3" timeFrom="0" timeTo="1" enabled="true"/>
+		<action name="TargetSize" size="0.500,0.500,0.500" scale="4,4,4" enabled="true"/>
+		<action name="TargetRotate" rotation="0,0,0" scale="0.100" enabled="true"/>
+		<action name="Move" draw="false" enabled="true"/>
+	</actions>
+</effect>

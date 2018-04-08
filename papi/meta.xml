@@ -1,0 +1,56 @@
+<meta>
+	<info author="XRAY" version="0.1" name="Stalker shaders" description="by XRAY" type="script" />
+
+	<script src="misc.lua" type="client" />
+	<script src="PAPI.lua" type="client" />
+	
+	<script src="anomaly_client.lua" type="client" />
+	
+	<script src="server.lua" type="server" />
+	
+	<file src="effects/electra_disk.xml" />
+	<file src="effects/anomaly_electra_idle_sparks.xml" />
+	<file src="effects/anomaly_studen.xml" />
+	<file src="effects/flame_burst_line_up.xml" />
+	<file src="effects/gravi_shield_wave.xml" />
+	<file src="effects/gravi_vacuum_idle_leaves.xml" />
+	<file src="effects/gravi_shield_idle.xml" />
+	<file src="effects/gravity_shield_dist.xml" />
+	<file src="effects/campfire_flame.xml" />
+	<file src="effects/campfire_smoke.xml" />
+	<file src="effects/campfire_sparks.xml" />
+	<file src="effects/campfire_vacum.xml" />
+	<file src="effects/campfire_glow.xml" />
+	<file src="effects/studen/hit_studen_hit_distort_01.xml" />
+	<file src="effects/studen/studen_idle_bottom.xml" />
+	<file src="effects/studen/studen_idle_glow_01.xml" />
+	
+	
+	<file src="shaders/mta-helper.fx"/>
+	<file src="shaders/shader.fx" />
+	<file src="shaders/add.fx" />
+	<file src="shaders/blend.fx" />
+	<file src="shaders/alpha_add.fx" />
+	<file src="shaders/xdistort.fx" />
+	
+	<file src="textures/pfx_ligth_6.dds" />
+	<file src="textures/pfx_anomaly_16.dds" />
+	<file src="textures/pfx_flame_01.dds" />
+	<file src="textures/pfx_dist2.dds" />
+	<file src="textures/pfx_anomaly_19.dds" />
+	<file src="textures/pfx_leaves_01.dds" />
+	<file src="textures/pfx_dist2.dds" />
+	<file src="textures/pfx_ani-fire01.dds" />
+	<file src="textures/pfx_smoke_b.dds" />
+	<file src="textures/pfx_smoke_a.dds" />
+	<file src="textures/glow_fire1.dds" />
+	<file src="textures/pfx_anomaly_2_green.dds" />
+	
+	<file src="models/prop_barrel2_fire.txd" />
+	<file src="models/prop_barrel2_fire.col" />
+	<file src="models/prop_barrel2_fire.dff" />
+	
+	<file src="sounds/fire2.ogg" />
+	<file src="sounds/electra_idle1.ogg" />
+	<file src="sounds/buzz_idle.ogg" />
+</meta>

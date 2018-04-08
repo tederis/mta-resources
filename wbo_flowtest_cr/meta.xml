@@ -1,0 +1,139 @@
+<meta>
+    <info author="TEDERIs" version="1.0" name="TCT GC" type="script" />
+    <min_mta_version client="1.3.0-9.04491" server="1.3.0" />
+
+    <config src="conf/objects.xml" type="client" />
+    <config src="conf/vehicles.xml" type="client" />
+    <config src="conf/peds.xml" type="client" />
+    <config src="conf/snapmodels.xml" type="client" />
+    <config src="conf/partlist.xml" type="client" />
+    <config src="conf/translations.xml" type="client" />
+    
+   
+    <script src="tct_chat_cl.lua" type="client" />
+    
+    <script src="cl_multilanguage.lua" type="client" />
+    <script src="wbo_cl_core.lua" type="client" />
+    <script src="wbo_cl_util.lua" type="client" />
+    <script src="wbo_cl_controls.lua" type="client" />
+    <script src="wbo_cl_build.lua" type="client" />
+    <script src="wbo_cl_gui.lua" type="client" />
+    <script src="wbo_cl_tools.lua" type="client" />
+    <script src="wbo_cl_help.lua" type="client" />
+    <script src="wbo_cl_texture.lua" type="client" />
+    <script src="wbo_cl_sound.lua" type="client" />
+    <script src="wbo_cl_actions.lua" type="client" />
+    <script src="catalog_gui.lua" type="client" />
+    <script src="cl_catalog.lua" type="client" />
+    <script src="cl_graphCatalog.lua" type="client" />
+    <script src="tct_cl_exports.lua" type="client" />
+    <script src="wbo_se_util.lua" type="server" />
+    <script src="tct_se_core.lua" type="server" />
+    <script src="wbo_se_build.lua" type="server" />
+    <script src="wbo_se_save.lua" type="server" />
+    
+    <script src="tct_se_rooms.lua" />
+    
+    <script src="glc/se_graph.lua" type="server" />
+    <script src="glc/cl_guimanager.lua" type="client" />
+    <script src="glc/cl_nodemanager.lua" type="client" />
+    <script src="glc/wbo_cl_wire.lua" type="client" />
+    <script src="glc/wbo_se_wire.lua" type="server" />
+    <script src="glc/neNodeEditorClient.lua" type="client" />
+    <script src="glc/neGUIEditorClient.lua" type="client" />
+    <script src="glc/neWorkspaceClient.lua" type="client" />
+    <script src="glc/glc_gui.lua" type="client" />
+    <script src="glc/glc_properties.lua" type="client" />
+    
+    <script src="glc/helpers/client.lua" type="client" />
+    <script src="glc/helpers/server.lua" type="server" />
+    <script src="glc/helpers/countdown_client.lua" type="client" />
+    <script src="glc/helpers/countdown.lua" type="server" />
+    
+    <script src="glc/nodes/c_nodes.lua" type="client" />
+    <script src="glc/nodes/s_nodemanager.lua" type="server" /> 
+    <script src="glc/nodes/s_entity.lua" type="server" />
+    <script src="glc/nodes/s_world.lua" type="server" />
+    <script src="glc/nodes/s_game.lua" type="server" />
+    <script src="glc/nodes/s_math.lua" type="server" />
+    <script src="glc/nodes/s_events.lua" type="server" />
+    <script src="glc/nodes/s_tool.lua" type="server" />
+    <script src="glc/nodes/s_string.lua" type="server" />
+    <script src="glc/nodes/s_ped.lua" type="server" />
+    <script src="glc/nodes/s_vehicle.lua" type="server" />
+    <script src="glc/nodes/s_gate.lua" type="server" />
+    <script src="glc/nodes/s_array.lua" type="server" />
+    <script src="glc/nodes/s_weapon.lua" type="server" />
+    <script src="glc/nodes/s_player.lua" type="server" />
+    <script src="glc/nodes/s_gui.lua" type="server" />
+
+    <script src="entity/EntityManager_cl.lua" type="client" />
+    <script src="entity/EmptyEntity_cl.lua" type="client" />
+    <script src="entity/PathEntity_cl.lua" type="client" />
+    <script src="entity/SpawnPointEntity_cl.lua" type="client" />
+    <script src="entity/TriggerEntity_cl.lua" type="client" />
+    <script src="entity/AreaEntity_cl.lua" type="client" />
+    <script src="entity/WeaponEntity_cl.lua" type="client" />
+    <script src="entity/BlipEntity_cl.lua" type="client" />
+    <script src="entity/MarkerEntity_cl.lua" type="client" />
+    <script src="entity/GenericEntity_cl.lua" type="client" />
+    <script src="entity/EntityRefs_se.lua" type="server" />
+    
+    <script src="wbo_cl_streamer.lua" type="client" />
+    <script src="ClientGameManager.lua" type="client" />
+    
+    <script src="keypad_client.lua" type="client" />
+
+    
+    <!--Utils-->
+	<script src="utils/client_anim.lua" type="client" />
+	 <!--<script src="utils/textlib_anim.lua" type="client" />-->
+	 <!--<script src="utils/textlib_s.lua" type="server" />-->
+	 <!--<script src="utils/textlib.lua" type="client" />-->
+    <script src="utils/collisions.lua" type="client" />
+    
+     <!--Textures-->
+    <file src="images/Character Editor.png" />
+    <file src="images/Vehicle Editor.png" />
+    <file src="images/2424_nav_plain_blue.png" />
+    <file src="images/2425_nav_plain_green.png" />
+    <file src="images/VisualBudgetSystemAnalyzeOne.png" />
+    <file src="images/Modular Editor.png" />
+    <file src="images/white_arrow.png" />
+    <file src="images/arrow.png" />
+    <file src="images/Asset Browser.png" />
+    <file src="images/man.png" />
+    <file src="images/flag.png" />
+    <file src="images/countdown_0.png" />
+    <file src="images/countdown_1.png" />
+    <file src="images/countdown_2.png" />
+    <file src="images/countdown_3.png" />
+    <file src="images/square.png" />
+    <file src="images/checker.png" />
+    <file src="images/Farm-Fresh_tree.png" />
+    <file src="images/Brick.png" />
+    
+    
+     <!--Shaders-->
+    <file src="shaders/add.fx" />
+    <file src="shaders/layered.fx" />
+    <file src="shaders/garage.fx" />
+    <file src="shaders/mta-helper.fx" /> 
+    <file src="shaders/snapbuffer.fx" />
+    <file src="shaders/scatter.fx" />
+    
+    
+    <!--<include resource="wbo_modmanager" />-->
+    <include resource="freecam" />
+    <include resource="int-s" />
+    
+    <export function="getSelectedToolName" type="client" />
+    <export function="applyModelLookupType" type="client" />
+    <export function="removeModelLookupType" type="client" />
+    
+    <settings>
+        <setting name="*saveDelay" value="400000" />
+        <setting name="*mapName" value="samap2" />
+        <setting name="*checkPermission" value="true" />
+    </settings>
+</meta>

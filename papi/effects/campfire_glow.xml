@@ -1,0 +1,15 @@
+<effect name="campfire_glow" maxParticles="4" >
+	<sprite texture="glow_fire1" shader="add" />
+	<actions>
+		<action name="KillOld" ageLimit="0.1" />
+		<action name="Source" rate="49" startingAge="0" ageSigma="0" parentMotion="0" allowRotate="true">
+			<domain type="line" point1="0,0,0.6" point2="0,0,0.5" />
+			<velocity type="point" point1="0,0,1.4" />
+			<rotation type="point" point1="0,0,0" />
+			<size type="line" point1="1.5,0,1.5" point2="1.2,0,1.2" />
+			<color type="point" point1="70,56,43" alpha="100"/>
+		</action>
+		<action name="TargetSize" size="3,0.001,3" scale="12,12,12" />
+		<action name="Move" draw="false" />
+	</actions>
+</effect>

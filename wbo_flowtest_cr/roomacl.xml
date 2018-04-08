@@ -1,0 +1,25 @@
+<objects>
+    <object name="XRAY">
+        <room id="guest-room" acl="Admin"></room>
+        <room id="S19w7272m2" acl="Admin"></room>
+    </object>
+    <acl name="Moderator">
+        <right name="room.kick"></right>
+        <right name="room.ban"></right>
+        <right name="room.mute"></right>
+        <right name="room.mod"></right>
+        <right name="room.graph"></right>
+    </acl>
+    <acl name="Admin">
+        <right name="room.kick"></right>
+        <right name="room.ban"></right>
+        <right name="room.mute"></right>
+        <right name="room.setacl"></right>
+        <right name="room.mod"></right>
+        <right name="room.graph"></right>
+        <right name="room.remove"></right>
+        <right name="room.setpass"></right>
+        <right name="room.settings"></right>
+    </acl>
+    <acl name="Everyone"></acl>
+</objects>

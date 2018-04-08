@@ -1,0 +1,31 @@
+<meta>
+ <info author="XRAY" version="1.0" name="WBO" type="script" />
+ <script src="loader_client.lua" type="client" />
+ <script src="wbo_cl_build.lua" type="client" />
+ <script src="wbo_se_build.lua" type="server" />
+ 
+ <script src="_compile.lua" type="server" special="true" />
+ <script src="_settings.lua" type="server" special="true" />
+ 
+ <script src="webinterface.lua" type="server" />
+ <export function="onWebModCreate" type="server" http="true" />
+ <export function="onWebModDestroy" type="server" http="true" />
+ <export function="onWebFileCreate" type="server" http="true" />
+ <export function="onWebFileDestroy" type="server" http="true" />
+ <export function="validateAccount" type="server" http="true" />
+ 
+ <export function="isReady" type="server" http="false" />
+ <export function="getAvailableMods" type="server" http="false" />
+ <export function="isModValid" type="server" http="false" />
+ <export function="getModFileChecksum" type="server" http="false" />
+ <export function="getFileType" type="server" http="false" />
+ <export function="getFileChecksum" type="server" http="false" />
+ <export function="getAvailableMods" type="client" http="false" />
+ <export function="getModsInRoom" type="client" http="false" />
+ <export function="getLoadedMods" type="client" http="false" />
+ <export function="modFilesList" type="client" http="false"/>
+ <export function="getChecksumByID" type="client" http="false" />
+ <export function="addFileHandler" type="client" http="false" />
+ 
+ <file src="Widget_icon.png" />
+</meta>

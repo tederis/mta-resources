@@ -1,0 +1,19 @@
+----------------------------------------------------
+TEDERIs Construction Tools: Terrain Editor (Public)
+----------------------------------------------------
+
+Requirements:
+	L3DT Professional [http://www.bundysoft.com/L3DT/]
+	
+
+Heightfield size: 2048x2048
+Horiz. scale: 3
+
+Export:
+	HFF(L3DT) Format
+	
+	DataSize(int) = 4
+	TileSize(int) = 0
+	FloatFlag(bool) = true
+	
+Max vertical range: -299 to 299

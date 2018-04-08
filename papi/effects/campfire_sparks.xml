@@ -1,0 +1,25 @@
+<effect name="campfire_sparks" maxParticles="20" >
+	<sprite texture="pfx_ani-fire01" shader="add">
+		<frame randomInit="true" count="77" sizeU="0.09082000" sizeV="0.14257800" />
+	</sprite>
+	<movement>
+		<alignToPath defaultRotate="-90,0,0" />
+		<velocityScale value="0,0,0.02" />
+		<collision destroyOnContact="true" friction="0" resilence="0" cutoff="0" />
+	</movement>
+	<actions>
+		<action name="KillOld" ageLimit="0.5" />
+		<action name="Source" rate="50" startingAge="0" ageSigma="0" parentMotion="0" allowRotate="true">
+			<domain type="box" point1="-0.4,-0.4,0.1" point2="0.4,0.4,0.9" />
+			<velocity type="box" point1="-2,-2,0" point2="2,2,2" />
+			<rotation type="point" point1="0,0,0" />
+			<size type="line" point1="0.027,1,0.027" point2="0.10,0,0.10" />
+			<color type="point" point1="255,255,255" alpha="255"/>
+		</action>
+		<action name="TargetColor" color="191,89,89" alpha="0" scale="3" timeFrom="0" timeTo="1"/>
+		<action name="RandomAccel" allowRotate="true" >
+			<accelerate type="box" point1="-0.5,-0.5,1.5" point2="0.5,0.5,2.5" />
+		</action>
+		<action name="Move" draw="false" enabled="true"/>
+	</actions>
+</effect>

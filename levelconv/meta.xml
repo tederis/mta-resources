@@ -1,0 +1,9 @@
+<meta>
+	<info author="XRAY" version="0.1" name="Protect" description="by XRAY" type="script" />
+	
+	<script src="client.lua" type="client" />
+	<script src="bytedata.lua" type="server" />
+	<script src="models.lua" type="server" />
+	<script src="server.lua" type="server" />
+
+</meta>

@@ -1,0 +1,79 @@
+<meta>
+ <info author="XRAY" version="57" name="WBO7" description="by XRAY" type="script" />
+ <min_mta_version client="1.1.1-9.03316" />
+ <script src="textures.lua" type="client" />
+ <script src="misc.lua" type="client" />
+ <script src="snow.lua" type="client"/>
+  <script src="icefill.lua" type="client"/>
+  <script src="projection.lua" type="client" />
+  <script src="worlddrawer.lua" type="client" />
+  <script src="worlddrawer_server.lua" type="server" />
+ 
+ <script src="s_misc.lua" type="server"/>
+  <script src="env_cl.lua" type="client"/>
+ 
+ <map src="snowmap.map" />
+ 
+ <file src="shaders/mta-helper.fx" />
+ <file src="shaders/shader.fx"/>
+ <file src="shaders/shaderalphablend.fx"/>
+ <file src="shaders/tex_matrix.fx"/>
+ <file src="shaders/blend.fx"/>
+ <file src="shaders/smokefix.fx"/>
+ <file src="shaders/light.fx" />
+ <file src="shaders/fog.fx" />
+ 
+ <file src="shaders/upshader.fx" />
+ <file src="shaders/snow.fx" />
+ <file src="shaders/projection.fx" />
+
+ <file src="textures/single/aero.mtacrmat"/>
+ <file src="textures/single/aero2.mtacrmat"/>
+ <file src="textures/single/bord.mtacrmat"/>
+ <file src="textures/single/bord2.mtacrmat"/>
+ <file src="textures/single/bord3.mtacrmat"/>
+ <file src="textures/single/concrete.mtacrmat"/>
+ <file src="textures/single/footpath.mtacrmat"/>
+ <file src="textures/single/ice.mtacrmat"/>
+ <file src="textures/single/offroad.mtacrmat"/>
+ <file src="textures/single/offroad_crossT.mtacrmat"/>
+ <file src="textures/single/offroad_crossT90.mtacrmat"/>
+ <file src="textures/single/offroad_crossX.mtacrmat"/>
+ <file src="textures/single/offroad_end.mtacrmat"/>
+ <file src="textures/single/offroad90.mtacrmat"/>
+ <file src="textures/single/parking.mtacrmat"/>
+ <file src="textures/single/plotina.mtacrmat"/>
+ <file src="textures/single/railroad.mtacrmat"/>
+ <file src="textures/single/railroad2.mtacrmat"/>
+ <file src="textures/single/road.mtacrmat"/>
+ <file src="textures/single/road2.mtacrmat"/>
+ <file src="textures/single/single.mtacrmat"/>
+ <file src="textures/single/singleLOD.mtacrmat"/>
+ <file src="textures/single/stone.mtacrmat"/>
+ <file src="textures/single/stone2.mtacrmat"/>
+ <file src="textures/single/stone3.mtacrmat"/>
+ <file src="textures/single/stone4.mtacrmat"/>
+ <file src="textures/single/stone5.mtacrmat"/>
+ <file src="textures/single/stone6.mtacrmat"/>
+ <file src="textures/single/trot.mtacrmat"/>
+ <file src="textures/single/trot2.mtacrmat"/>
+ <file src="textures/single/trot3.mtacrmat"/>
+ <file src="textures/single/trot4.mtacrmat"/>
+ <file src="textures/single/trottile.mtacrmat"/>
+ <file src="textures/single/trottileLOD.mtacrmat"/> 
+ <file src="textures/single/special.mtacrmat"/> 
+ 
+ <file src="textures/blend/blend.mtacrmat"/> 
+ 
+ <file src="textures/other/real_tile.mtacrmat"/>
+ <file src="textures/other/noise.mtacrmat"/>
+ 
+ <file src="textures/snow_MSK.dds" />
+ 
+ <file src="textures/Snow01.png"/> 
+ <file src="textures/Snow02.png"/> 
+ <file src="textures/Snow03.png"/> 
+ 
+ <file src="textures/coronareflect.tga" />
+ <file src="snowmap.dds" />
+</meta>

@@ -1,0 +1,21 @@
+<locations rev="52">
+    <loc name="escape" texture="terrain_escape" posX="1050" posY="2400" texBiasX="2" texBiasY="2" redChannel="1" greenChannel="2" blueChannel="3" alphaChannel="4" rot="0" raise="0"></loc>
+    <loc name="agroprom" texture="terrain_agroprom" posX="900" posY="2150" texBiasX="0" texBiasY="0" redChannel="1" greenChannel="2" blueChannel="3" alphaChannel="4" rot="0" raise="50"></loc>
+    <loc name="garbage" texture="terrain_garbage_new" posX="1200" posY="2100" texBiasX="0" texBiasY="0" redChannel="1" greenChannel="2" blueChannel="3" alphaChannel="4" rot="0" raise="50"></loc>
+    <loc name="darkvalley" texture="terrain_darkvalley" posX="1550" posY="2100" texBiasX="0" texBiasY="0" redChannel="1" greenChannel="2" blueChannel="3" alphaChannel="4" rot="0" raise="0"></loc>
+    <loc name="yantar" texture="terrain_yantar" posX="850" posY="1900" texBiasX="0" texBiasY="0" redChannel="4" greenChannel="2" blueChannel="3" alphaChannel="4" rot="0" raise="50"></loc>
+    <loc name="military" texture="terrain_military_1" posX="1400" posY="1350" texBiasX="0" texBiasY="0" redChannel="1" greenChannel="2" blueChannel="3" alphaChannel="4" rot="0" raise="50"></loc>
+    <loc name="red_forest" texture="terrain_red_forest" posX="500" posY="1100" texBiasX="0" texBiasY="0" redChannel="1" greenChannel="2" blueChannel="3" alphaChannel="6" rot="0" raise="50"></loc>
+    <loc name="l10_radar" texture="terrain_radar_2" posX="1650" posY="1050" texBiasX="5" texBiasY="-25" redChannel="1" greenChannel="2" blueChannel="3" alphaChannel="4" rot="0" raise="10"></loc>
+    <loc name="limansk" texture="terrain_limansk" posX="100" posY="1000" texBiasX="0" texBiasY="0" redChannel="1" greenChannel="2" blueChannel="3" alphaChannel="4" rot="0" raise="30"></loc>
+    <loc name="zaton" texture="terrain_zaton" posX="1900" posY="0" texBiasX="12" texBiasY="7" redChannel="3" greenChannel="2" blueChannel="1" alphaChannel="7" rot="0" raise="-10"></loc>
+    <loc name="jupiter" texture="terrain_jupiter" posX="1300" posY="500" texBiasX="0" texBiasY="1" redChannel="1" greenChannel="2" blueChannel="3" alphaChannel="8" rot="0" raise="-12"></loc>
+    <loc name="pripyat_full" texture="terrain_prip_lwo" posX="2050" posY="550" texBiasX="0" texBiasY="0" redChannel="1" greenChannel="2" blueChannel="3" alphaChannel="5" rot="0" raise="20"></loc>
+    <loc name="marsh" texture="terrain_marsh" posX="450" posY="2400" texBiasX="0" texBiasY="0" redChannel="1" greenChannel="5" blueChannel="3" alphaChannel="4" rot="0" raise="50"></loc>
+    <loc name="la05_bar_rostok" texture="terrain_la_wild_territory" posX="1050" posY="1600" texBiasX="0" texBiasY="0" redChannel="1" greenChannel="2" blueChannel="3" alphaChannel="4" rot="0" raise="50"></loc>
+    <loc name="k01_darkcape_test" texture="terrain_darkcape" posX="1600" posY="2450" texBiasX="0" texBiasY="0" redChannel="1" greenChannel="2" blueChannel="3" alphaChannel="4" rot="0" raise="50"></loc>
+    <loc name="la02_garbage" texture="terrain_la_garbage" posX="450" posY="550" texBiasX="0" texBiasY="0" redChannel="1" greenChannel="2" blueChannel="3" alphaChannel="4" rot="2" raise="50"></loc>
+    <loc name="la19_country" texture="terrain_la_country" posX="750" posY="100" texBiasX="0" texBiasY="0" redChannel="1" greenChannel="2" blueChannel="3" alphaChannel="4" rot="2" raise="20"></loc>
+    <loc name="la08_deadcity" texture="terrain_la_deadcity" posX="1000" posY="1100" texBiasX="0" texBiasY="0" redChannel="1" greenChannel="2" blueChannel="3" alphaChannel="4" rot="0" raise="50"></loc>
+    <loc name="stancia_2" texture="terrain_stancia" posX="2250" posY="1150" texBiasX="632" texBiasY="0" redChannel="1" greenChannel="2" blueChannel="3" alphaChannel="4" rot="0" raise="0"></loc>
+</locations>

@@ -1,0 +1,22 @@
+<effect name="campfire_vacum" maxParticles="30" >
+	<sprite texture="pfx_smoke_a" shader="alpha_add" />
+	<actions>
+		<action name="KillOld" ageLimit="2" />
+		<action name="TargetColor" color="226,174,68" alpha="255" scale="5" timeFrom="0" timeTo="0.5"/>
+		<action name="TargetSize" size="1,1,1" scale="0.3,0.3,0.3"/>
+		<action name="TargetRotate" rotation="0,0,0" scale="0.01"/>
+		<action name="OrbitPoint" center="0,0,0.05" magnitude="5" epsilon="0.1" maxRadius="99"/>
+		<action name="Sink" killInside="true">
+			<domain type="box" point1="-0.051,-0.051,-0.001" point2="0.051,0.051,0.101" />
+		</action>
+		<action name="SpeedLimit" minSpeed="-1" maxSpeed="1" />
+		<action name="Move" draw="false" enabled="true"/>
+		<action name="Source" rate="80" startingAge="0" ageSigma="0" parentMotion="0" allowRotate="true">
+			<domain type="disc" center="0,0,-0.050" normal="0,0,2" radiusInner="0.1" radiusOuter="0.4" />
+			<velocity type="point" point1="0,0,0" />
+			<rotation type="line" point1="-30,-30,-30" point2="300,300,300" />
+			<size type="line" point1="0.2,0.2,0.2" point2="0.5,0.5,0.5" />
+			<color type="point" point1="0,0,0" alpha="13"/>
+		</action>
+	</actions>
+</effect>

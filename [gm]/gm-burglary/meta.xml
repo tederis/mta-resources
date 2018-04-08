@@ -1,0 +1,13 @@
+<meta>
+ <info author="TEDERIs" version="0.1" name="GM-burglary" description="GM food shop" type="script" />
+ <script src="ClientTaskBurglary.lua" type="client" />
+ <script src="ServerTaskBurglary.lua" type="server" />
+ <script src="client.lua" type="client" />
+ <script src="server.lua" type="server" />
+ <script src="message_cl.lua" type="client" />
+ <script src="statusText_cl.lua" type="client" />
+ 
+ <include resource="missionmanager"/>
+ <include resource="bone_attach"/>
+ <map src="main.map" />
+</meta>

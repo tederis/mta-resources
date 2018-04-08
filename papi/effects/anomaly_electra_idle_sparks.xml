@@ -1,0 +1,16 @@
+<effect name="anomaly_electra_idle_sparks" maxParticles="2" >
+	<sprite texture="pfx_ligth_6" shader="add" />
+	<actions>
+		<action name="KillOld" ageLimit="0.200" killLessThan="false" draw="false" enabled="true"/>
+		<action name="Source" rate="5" singleSize="false" startingAge="0" ageSigma="0" parentMotion="0" allowRotate="true" draw="false" enabled="true">
+			<domain type="disc" center="0,0,0.250" normal="0,0,1" radiusInner="0" radiusOuter="2.5" />
+			<velocity type="point" point1="0,0,1" />
+			<rotation type="line" point1="-7849.521,-57.296,-57.296" point2="7849.521,57.296,57.296" />
+			<size type="line" point1="1,0.3,1" point2="0.1,0,0.1" />
+			<color type="point" point1="195,214,255" alpha="255"/>
+		</action>
+		<action name="TargetColor" color="7,12,33" alpha="2" scale="12" timeFrom="0" timeTo="1" draw="false" enabled="true"/>
+		<action name="TargetSize" size="2,2,2" scale="8,8,8" draw="false" enabled="true"/>
+		<action name="Move" draw="false" enabled="true"/>
+	</actions>
+</effect>

@@ -1,0 +1,21 @@
+<effect name="electra_disk" maxParticles="5" >
+	<sprite texture="pfx_ligth_6" shader="add">
+		<culling ccw="false" />
+	</sprite>
+	<movement>
+		<alignToPath faceAlign="true" defaultWorldAlign="true" defaultRotate="-90,0,0" />
+	</movement>
+	<actions>
+		<action name="KillOld" ageLimit="0.240" killLessThan="false" draw="false" enabled="true"/>
+		<action name="Source" rate="8" singleSize="false" startingAge="0" ageSigma="0" parentMotion="0" allowRotate="true" draw="false" enabled="true">
+			<domain type="line" point1="0,0,0.250" point2="0,0,0.050" />
+			<velocity type="point" point1="0,0,0.010" />
+			<rotation type="line" point1="-999,-999,-999" point2="999,999,999" />
+			<size type="line" point1="0.400,0.500,0.400" point2="3,3,3" />
+			<color type="point" point1="105,105,105" alpha="1"/>
+		</action>
+		<action name="TargetColor" color="29,33,61" alpha="0" scale="10" timeFrom="0" timeTo="1" draw="false" enabled="true"/>
+		<action name="TargetSize" size="5,5,5" scale="8,8,8" draw="false" enabled="true"/>
+		<action name="Move" draw="false" enabled="true"/>
+	</actions>
+</effect>

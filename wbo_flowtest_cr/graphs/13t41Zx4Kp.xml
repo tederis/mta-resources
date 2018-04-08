@@ -1,0 +1,72 @@
+<graph owner="XRAY" public="0" name="xrRoomFuel">
+    <node id="697611CPF6" tag="Tool:Timer" posX="-59" posY="-14">
+        <property index="3" value="1000"></property>
+        <property index="4" value="0"></property>
+    </node>
+    <node id="u6432GJ642" tag="Vehicle:EngineState" posX="296" posY="-365"></node>
+    <node id="YUmP61p19u" tag="Array:Enum" posX="485" posY="27">
+        <property index="2" value="nil"></property>
+    </node>
+    <node id="D40sfvfxc5" tag="Vehicle:Vehicle" posX="1567" posY="-469"></node>
+    <node id="JP5oJTOg38" tag="Math:Sub" posX="1549" posY="-75">
+        <property index="1" value="0"></property>
+        <property index="2" value="0"></property>
+        <property index="3" value="1"></property>
+    </node>
+    <node id="B539jA52Uw" tag="Tool:Hub" posX="105" posY="7"></node>
+    <node id="fm4M7oE87C" tag="Tool:Script" posX="-260" posY="-71"></node>
+    <node id="zr58t9248S" tag="Ped:OccupiedVehicle" posX="70" posY="-309"></node>
+    <node id="g8WZ3e9hy9" tag="Game:BindKey" posX="-135" posY="-293">
+        <property index="1" value="j"></property>
+    </node>
+    <node id="22c8Z68tcI" tag="Entity:ByType" posX="278" posY="-34">
+        <property index="2" value="vehicle"></property>
+    </node>
+    <node id="pcl5m0lEG2" tag="Game:Info" posX="2017" posY="-369">
+        <property index="2" value="Fuel empty!2"></property>
+    </node>
+    <node id="8BLwjr5lf1" tag="Math:FromBoolean" posX="861" posY="119">
+        <property index="1" value="0"></property>
+    </node>
+    <node id="02SqkbC0Z4" tag="Entity:Data" posX="1101" posY="77">
+        <property index="5" value=""></property>
+        <property index="6" value="0"></property>
+        <property index="4" value="fuel"></property>
+    </node>
+    <node id="Iys3rY9923" tag="Math:Less" posX="1327" posY="-122">
+        <property index="1" value="0"></property>
+        <property index="2" value="0"></property>
+        <property index="3" value="1"></property>
+    </node>
+    <node id="oVD86p7U41" tag="Entity:Data" posX="1834" posY="-207">
+        <property index="5" value=""></property>
+        <property index="6" value="0"></property>
+        <property index="4" value="fuel"></property>
+    </node>
+    <node id="dv84t536p8" tag="Vehicle:EngineState" posX="678" posY="134"></node>
+    <node id="Y1m32772aP" tag="Vehicle:EngineState" posX="1576" posY="-316"></node>
+    <edge id="a2585nZ0n6" nodeSrc="g8WZ3e9hy9" portSrc="1" nodeDst="zr58t9248S" portDst="1"></edge>
+    <edge id="Rk32048Ue4" nodeSrc="fm4M7oE87C" portSrc="1" nodeDst="697611CPF6" portDst="1"></edge>
+    <edge id="5x5ldXVKj0" nodeSrc="YUmP61p19u" portSrc="3" nodeDst="oVD86p7U41" portDst="0"></edge>
+    <edge id="YB6Y046r15" nodeSrc="JP5oJTOg38" portSrc="1" nodeDst="oVD86p7U41" portDst="1"></edge>
+    <edge id="L0DGVh9C4d" nodeSrc="YUmP61p19u" portSrc="3" nodeDst="D40sfvfxc5" portDst="0"></edge>
+    <edge id="10A8M7ZZ4f" nodeSrc="YUmP61p19u" portSrc="1" nodeDst="dv84t536p8" portDst="0"></edge>
+    <edge id="F7523kQ0e7" nodeSrc="YUmP61p19u" portSrc="3" nodeDst="Y1m32772aP" portDst="0"></edge>
+    <edge id="v65B2K6Vm7" nodeSrc="Iys3rY9923" portSrc="2" nodeDst="JP5oJTOg38" portDst="1"></edge>
+    <edge id="B36E67cDoM" nodeSrc="697611CPF6" portSrc="1" nodeDst="B539jA52Uw" portDst="1"></edge>
+    <edge id="QhK160x3m3" nodeSrc="D40sfvfxc5" portSrc="7" nodeDst="pcl5m0lEG2" portDst="0"></edge>
+    <edge id="32l7K6RS3w" nodeSrc="02SqkbC0Z4" portSrc="3" nodeDst="JP5oJTOg38" portDst="2"></edge>
+    <edge id="4u15pav3w7" nodeSrc="zr58t9248S" portSrc="1" nodeDst="u6432GJ642" portDst="1"></edge>
+    <edge id="74ZviNI01v" nodeSrc="g8WZ3e9hy9" portSrc="3" nodeDst="zr58t9248S" portDst="0"></edge>
+    <edge id="b79Kqm97MT" nodeSrc="B539jA52Uw" portSrc="1" nodeDst="22c8Z68tcI" portDst="1"></edge>
+    <edge id="88C55Q9PIr" nodeSrc="B539jA52Uw" portSrc="2" nodeDst="YUmP61p19u" portDst="1"></edge>
+    <edge id="75992r0T44" nodeSrc="22c8Z68tcI" portSrc="1" nodeDst="YUmP61p19u" portDst="2"></edge>
+    <edge id="860606L63B" nodeSrc="8BLwjr5lf1" portSrc="1" nodeDst="02SqkbC0Z4" portDst="2"></edge>
+    <edge id="763j36W4qv" nodeSrc="zr58t9248S" portSrc="3" nodeDst="u6432GJ642" portDst="0"></edge>
+    <edge id="bhG6qnW607" nodeSrc="02SqkbC0Z4" portSrc="3" nodeDst="Iys3rY9923" portDst="1"></edge>
+    <edge id="jcii361481" nodeSrc="Iys3rY9923" portSrc="1" nodeDst="Y1m32772aP" portDst="3"></edge>
+    <edge id="lgw68HLWn1" nodeSrc="dv84t536p8" portSrc="1" nodeDst="8BLwjr5lf1" portDst="1"></edge>
+    <edge id="n9l39A20vC" nodeSrc="JP5oJTOg38" portSrc="2" nodeDst="oVD86p7U41" portDst="5"></edge>
+    <edge id="4Vo656jg96" nodeSrc="YUmP61p19u" portSrc="3" nodeDst="02SqkbC0Z4" portDst="0"></edge>
+    <edge id="7BEs22w502" nodeSrc="Iys3rY9923" portSrc="1" nodeDst="pcl5m0lEG2" portDst="1"></edge>
+</graph>

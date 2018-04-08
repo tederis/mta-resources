@@ -1,0 +1,22 @@
+<effect name="studen/hit_studen_hit_distort_01" maxParticles="8" >
+	<sprite texture="pfx_anomaly_2_green" shader="alpha_add">
+		<frame count="8" sizeU="0.25" sizeV="0.5" />
+		<animated speed="6" />
+	</sprite>
+	<movement>
+		<alignToPath faceAlign="true" defaultRotate="-90,0,0" />
+	</movement>
+	<actions>
+		<action name="KillOld" ageLimit="0.9" />
+		<action name="Source" rate="6" singleSize="true" startingAge="0" ageSigma="0" parentMotion="0">
+			<domain type="disc" center="0,0,0.05" normal="0,0,1" radiusInner="0" radiusOuter="1.5" />
+			<velocity type="point" point1="0,0,0.001" />
+			<rotation type="line" point1="-100,-100,-100" point2="100,100,100" />
+			<size type="line" point1="0.39,0.1,0.39" point2="0.45,0.45,0.45" />
+			<color type="point" point1="255,255,255" alpha="255"/>
+		</action>
+		<action name="TargetColor" color="65,100,61" alpha="154" scale="0.48" timeFrom="0" timeTo="1"/>
+		<action name="TargetSize" size="1,1,1" scale="2,2,2" draw="false" enabled="true"/>
+		<action name="Move" draw="false" enabled="true"/>
+	</actions>
+</effect>

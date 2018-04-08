@@ -1,0 +1,17 @@
+<meta>
+	<info author="XRAY" version="0.1" name="Protect" description="by XRAY" type="script" />
+	<min_mta_version client="1.4.0" server="1.4.0" />
+	<oop>true</oop>
+	
+	<script src="streamer.lua" type="client" />
+	<script src="client.lua" type="client" />
+	
+	<file src="models/grass.txd" />
+	<file src="models/grass.col" />
+	<file src="models/grass.dff" />
+	
+	<file src="shaders\mta-helper.fx" />
+	<file src="shaders\default.fx" />
+	
+	<file src="grass.xml" />
+</meta>

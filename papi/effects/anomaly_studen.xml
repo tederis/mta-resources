@@ -1,0 +1,20 @@
+<effect name="anomaly_studen" maxParticles="120" >
+	<sprite texture="pfx_anomaly_16" shader="add" />
+	<actions>
+		<action name="KillOld" ageLimit="5" killLessThan="false" draw="false" enabled="true"/>
+		<action name="Source" rate="17" singleSize="false" startingAge="0" ageSigma="0" parentMotion="0" allowRotate="true" draw="false" enabled="true">
+			<domain type="disc" center="0,0,1.150" normal="0,0,1" radiusInner="0" radiusOuter="1" />
+			<velocity type="disc" center="0,0,1.150" normal="0,0,1" radiusInner="0" radiusOuter="1"  />
+			<rotation type="line" point1="-7849.521,-57.296,-57.296" point2="7849.521,57.296,57.296" />
+			<size type="point" point1="0.1,0,0.1" />
+			<color type="point" point1="195,214,255" alpha="1"/>
+		</action>
+		<action name="TargetColor" color="7,12,33" alpha="0.008" scale="12" timeFrom="0" timeTo="1" draw="false" enabled="true"/>
+		<action name="TargetSize" size="1,0.001,1" scale="2,2,2" draw="false" enabled="true"/>
+		<action name="RandomAccel">
+			<accelerate type="box" point1="-1,-1,-1" point2="1,1,1" />
+		</action>
+		<action name="TargetRotate" rotation="2912.758,0,0" scale="0.030" draw="false" enabled="true"/>
+		<action name="Move" draw="false" enabled="true"/>
+	</actions>
+</effect>

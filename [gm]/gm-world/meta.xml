@@ -1,0 +1,7 @@
+<meta>
+	<info author="TEDERIs" version="0.1" name="GM-world" description="TEDERIs gamemode" type="script" />
+	<script src="client.lua" type="client" />
+	<script src="server.lua" type="server" />
+	
+	<map src="weapons.map" />
+</meta>

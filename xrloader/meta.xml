@@ -1,0 +1,22 @@
+<meta>
+ <info author="XRAY" version="0.1" name="Area tools" description="by XRAY" type="script" />
+  <min_mta_version client="1.4.0" server="1.4.0" />
+ <oop>true</oop>
+ <script src="server.lua" type="server" />
+ <script src="client.lua" type="client" />
+ <script src="client_ui.lua" type="client" />
+ <script src="streamer_cl.lua" type="client" />
+ 
+ <script src="_compile.lua" type="server" />
+ 
+ <include resource="mapdff" />
+ <include resource="xrworld" />
+ 
+ <file src="images/target.png" />
+ <file src="mta-helper.fx" />
+ <file src="shader.fx" />
+ 
+ <export function="xrLoaderExtendPkg" type="server" />
+ <export function="xrLoaderUpdatePkg" type="server" />
+ <export function="xrLoaderCleanPkg" type="server" />
+</meta>

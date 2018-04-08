@@ -1,0 +1,38 @@
+<weapons>
+	<group name="Handguns">
+		<weapon id="24" name="Desert eagle" cost="1200" />
+		<weapon id="22" name="Pistol" cost="200" />
+		<weapon id="23" name="Silenced" cost="600" />
+	</group>
+	
+	<group name="Shotguns">
+		<weapon id="26" name="Sawn-off shotgun" cost="800" />
+		<weapon id="25" name="Shotgun" cost="600" />
+		<weapon id="27" name="SPAZ-12" cost="1000" />
+	</group>
+	
+	<group name="Sub-machine guns">
+		<weapon id="29" name="MP5" cost="2000" />
+		<weapon id="32" name="TEC-9" cost="300" />
+		<weapon id="28" name="Uzi" cost="500" />
+	</group>
+	
+	<group name="Machine guns">
+		<weapon id="30" name="AK47" cost="3500" />
+		<weapon id="31" name="M4" cost="4500" />
+	</group>
+	
+	<group name="Rifles">
+		<weapon id="33" name="Country sniper" cost="1000" />
+		<weapon id="34" name="Sniper" cost="5000" />
+	</group>
+	
+	<group name="Projectiles">
+		<weapon id="16" name="Grenade" cost="300" />
+		<weapon id="39" name="Satchel" cost="2000" />
+	</group>
+	
+	<group name="Other">
+		<weapon id="-1" name="Armor" cost="200" />
+	</group>
+</weapons>
