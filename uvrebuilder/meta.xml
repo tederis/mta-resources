@@ -1,0 +1,6 @@
+<meta>
+ <info author="XRAY" version="0.1" name="Area tools" description="by XRAY" type="script" />
+ <oop>true</oop>
+ <script src="client.lua" type="client" />
+</meta>
+
