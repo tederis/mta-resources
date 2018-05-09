@@ -41,5 +41,5 @@ TCT Ресурсы:
 
 
 
-В состав некоторых ресурсов входит скрипт bytedata.lua за авторством CrystalMV.
+В состав некоторых ресурсов входит скрипт bytedata.lua и ресурс bone_attach за авторством CrystalMV.
 http://crystalmv.net84.net/
