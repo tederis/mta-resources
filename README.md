@@ -9,6 +9,7 @@ S.T.A.L.K.E.R. Ресурсы:
 * xrskybox - собственно скайбокс
 * xrloader - загрузчик моделей, который умеет скачивать и загружать только те, что находятся в определенном радиусе от игрока
 * terrain_editor - данная версия редактора ладншафта полностью заточена под сталкер и без него не работает
+    [Video - Terrain workflow](https://youtu.be/PQZH5l2trTY)
 * sp_hud_real - худ сталкера
 * papi - партиклы сталкера(система частиц на биллбордах)
     [Video - Particles](https://youtu.be/BXCwFZMxHo4)
@@ -23,6 +24,7 @@ TCT Ресурсы:
 * wbo_flowtest_cr - собственно TCT. 
     [Video - TCT FlowGraph](https://youtu.be/ySbL7a9U-Vo)
 * wbo_12 - старая версия TCT. Вместо нодов для построения логики используются логические компоненты.
+    [Video - TCT Old](https://youtu.be/UeWaSrVwfBs)
 * terrain_editor_public - редактор ландшафта, обособленный от сталкера. Нужно дорабатывать. 
     [Video - Terrain workflow](https://youtu.be/PQZH5l2trTY)
 * int-s - обеспечивает интерактивность для объектов
