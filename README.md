@@ -21,6 +21,7 @@ Description of resources
 * levelconv - vegetation loader for *TForest* technique purposes
 * grass - grass system(alpha version)
 * dffframe - the game world builder
+* sp_login - login and logo example
 
 ## TEDERIs Contruction Tools
 The set of TCT resources provide editing functionality.
