@@ -17,11 +17,11 @@ Description of resources
 * papi - particle system
     [Video - Particles](https://youtu.be/BXCwFZMxHo4)
 * mapdff - lightmap processor
-    [Video - lightmaps](https://youtu.be/Fd3gWajlXzY)
+    [Video - Lightmaps](https://youtu.be/Fd3gWajlXzY)
 * levelconv - vegetation loader for *TForest* technique purposes
 * grass - grass system(alpha version)
 * dffframe - the game world builder
-* sp_login - login and logo example
+* sp_login - login and logo example [Video - Login](https://youtu.be/L9U7x2BCH8Q)
 
 ## TEDERIs Contruction Tools
 The set of TCT resources provide editing functionality.
