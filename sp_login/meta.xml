@@ -1,0 +1,102 @@
+<meta>
+	<info author="TEDERIs" version="0.1" name="Login" description="Login system" type="script" />
+	<script src="xrUI.lua" type="client" />
+	<script src="client.lua" type="client" />
+	<script src="server.lua" />
+	<script src="_compile.lua" />
+	
+	<file src="models/scene.txd" />
+	<file src="models/scene.col" />
+	<file src="models/scene.dff" />
+	
+	<file src="models/leatherjacket.txd" />
+	<file src="models/leatherjacket.dff" />
+	<file src="models/merc.txd" />
+	<file src="models/merc.dff" />
+	<file src="models/freedom.txd" />
+	<file src="models/duty.txd" />
+	<file src="models/armouredsuit.dff" />
+	<file src="models/bandit.txd" />
+	<file src="models/bandit.dff" />
+	<file src="models/clearskyhood.txd" />
+	<file src="models/clearskyhood.dff" />
+	
+	<file src="textures/ui_frame_01/ui_frame_01_b.dds" />
+	<file src="textures/ui_frame_01/ui_frame_01_back.dds" />
+	<file src="textures/ui_frame_01/ui_frame_01_l.dds" />
+	<file src="textures/ui_frame_01/ui_frame_01_lb.dds" />
+	<file src="textures/ui_frame_01/ui_frame_01_lt.dds" />
+	<file src="textures/ui_frame_01/ui_frame_01_r.dds" />
+	<file src="textures/ui_frame_01/ui_frame_01_rb.dds" />
+	<file src="textures/ui_frame_01/ui_frame_01_rt.dds" />
+	<file src="textures/ui_frame_01/ui_frame_01_t.dds" />
+	
+	<file src="textures/ui_frame_02/ui_frame_02_b.dds" />
+	<file src="textures/ui_frame_02/ui_frame_02_back.dds" />
+	<file src="textures/ui_frame_02/ui_frame_02_l.dds" />
+	<file src="textures/ui_frame_02/ui_frame_02_lb.dds" />
+	<file src="textures/ui_frame_02/ui_frame_02_lt.dds" />
+	<file src="textures/ui_frame_02/ui_frame_02_r.dds" />
+	<file src="textures/ui_frame_02/ui_frame_02_rb.dds" />
+	<file src="textures/ui_frame_02/ui_frame_02_rt.dds" />
+	<file src="textures/ui_frame_02/ui_frame_02_t.dds" />
+	
+	<file src="textures/ui_frame_03/ui_frame_03_b.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_back.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_l.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_lb.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_lt.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_r.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_rb.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_rt.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_t.dds" />
+	
+	<file src="textures/ui_frame_dialog/ui_frame_dialog_b.dds" />
+	<file src="textures/ui_frame_dialog/ui_frame_dialog_back.dds" />
+	<file src="textures/ui_frame_dialog/ui_frame_dialog_l.dds" />
+	<file src="textures/ui_frame_dialog/ui_frame_dialog_lb.dds" />
+	<file src="textures/ui_frame_dialog/ui_frame_dialog_lt.dds" />
+	<file src="textures/ui_frame_dialog/ui_frame_dialog_r.dds" />
+	<file src="textures/ui_frame_dialog/ui_frame_dialog_rb.dds" />
+	<file src="textures/ui_frame_dialog/ui_frame_dialog_rt.dds" />
+	<file src="textures/ui_frame_dialog/ui_frame_dialog_t.dds" />
+	
+	<file src="textures/ui_string/ui_string_07_b.dds" />
+	<file src="textures/ui_string/ui_string_07_back.dds" />
+	<file src="textures/ui_string/ui_string_07_e.dds" />
+	
+	<file src="textures/ui_button/ui_button_01.dds" />
+	
+	<file src="textures/ui_inv_info_over_lt.dds" />
+	<file src="textures/ui_frame_over_lb.dds" />
+	
+	<file src="textures/ui_logos.dds" />
+	
+	<file src="textures/ui_ingame2_back_01.dds" />
+	<file src="textures/ui_actor_staff_background.dds" />
+	<file src="textures/raintexture.png" />
+	<file src="textures/ui_hud.dds" />
+	
+	<file src="textures/logo.dds" />
+	<file src="textures/FlashLight.bmp" />
+	<file src="textures/fan.dds" />
+	
+	<file src="shader.fx" />
+	<file src="tex_matrix.fx" />
+	<file src="logo.fx" />
+	
+	<file src="sounds/new_rain1.ogg" />
+	<file src="sounds/new_thunder1.ogg" />
+	<file src="sounds/new_thunder2.ogg" />
+	<file src="sounds/new_thunder3.ogg" />
+	<file src="sounds/waterdrops2.ogg" />
+	<file src="sounds/switch_1.ogg" />
+	<file src="sounds/8.ogg" />
+	<file src="sounds/giant_underground_0.ogg" />
+	<file src="sounds/hear_3.ogg" />
+	<file src="sounds/cover_fire_3.ogg" />
+	<file src="sounds/f1_explode2.ogg" />
+	
+	<file src="AG Letterica Roman Medium.ttf" />
+	<file src="AGLettericaExtraCompressed Roman.ttf" />
+</meta>
