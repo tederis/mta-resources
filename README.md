@@ -1,7 +1,7 @@
 # About
 
-## S.T.A.L.K.E.R. Project
-There is several resources created for the **S.T.A.L.K.E.R. Project** purposes. This project has been developed for many years and has a number of awesome features such as *terrain editor* or *baked light*(lightmapping). 
+## The Exclusion Zone
+There is several resources created for the **The Exclusion Zone** purposes. This project has been developed for many years and has a number of awesome features such as *terrain editor* or *baked light*(lightmapping). 
 * [Video - Inventory system](https://youtu.be/_6bTlzFmwms)
 * [Video - Environment](https://youtu.be/2ZvxHZpViok)
 * [Video - Day/Nigth cycle](https://youtu.be/rV_DFnYM0nU)
@@ -11,7 +11,7 @@ Description of resources
 * xrworld - auxiliary resource for loading objects of the world
 * xrskybox - the skybox
 * xrloader - models loader(DFF/TXD/COL) that can download and stream-in only those that are within a certain radius from the player
-* terrain_editor - the terrain editor for *S.T.A.L.K.E.R.* purposes
+* terrain_editor - the terrain editor for *The Exclusion Zone* purposes
     [Video - Terrain workflow](https://youtu.be/PQZH5l2trTY)
 * sp_hud_real - HUD
 * papi - particle system
