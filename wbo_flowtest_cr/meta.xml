@@ -93,15 +93,15 @@
     <script src="utils/collisions.lua" type="client" />
     
      <!--Textures-->
-    <file src="images/Character Editor.png" />
-    <file src="images/Vehicle Editor.png" />
+    <file src="images/Character_Editor.png" />
+    <file src="images/Vehicle_Editor.png" />
     <file src="images/2424_nav_plain_blue.png" />
     <file src="images/2425_nav_plain_green.png" />
     <file src="images/VisualBudgetSystemAnalyzeOne.png" />
-    <file src="images/Modular Editor.png" />
+    <file src="images/Modular_Editor.png" />
     <file src="images/white_arrow.png" />
     <file src="images/arrow.png" />
-    <file src="images/Asset Browser.png" />
+    <file src="images/Asset_Browser.png" />
     <file src="images/man.png" />
     <file src="images/flag.png" />
     <file src="images/countdown_0.png" />

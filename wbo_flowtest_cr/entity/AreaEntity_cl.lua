@@ -38,7 +38,7 @@ function AreaEntity.streamIn ( element )
 		--AreaEntity.texture = dxCreateTexture ( "textures/zabor1.dds", "dxt3" )
 		AreaEntity.texture = dxCreateShader ( "shaders/garage.fx" )
 		dxSetShaderValue ( AreaEntity.texture, "Color", 0, 0.6, 0, 0.1 )
-		AreaEntity.iconTexture = dxCreateTexture ( "images/Asset Browser.png" )
+		AreaEntity.iconTexture = dxCreateTexture ( "images/Asset_Browser.png" )
 		addEventHandler ( "onClientPreRender", root, AreaEntity.update, false )
 		
 		outputDebugString ( "AreaEntity: update created" )

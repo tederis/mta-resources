@@ -22,8 +22,8 @@ function SpawnPointEntity.streamIn ( element )
 	SpawnPointEntity:addElement ( element )
 	
 	if SpawnPointEntity.refs == 1 then
-		SpawnPointEntity.texturePlayer = dxCreateTexture ( "images/Character Editor.png" )
-		SpawnPointEntity.textureVehicle = dxCreateTexture ( "images/Vehicle Editor.png" )
+		SpawnPointEntity.texturePlayer = dxCreateTexture ( "images/Character_Editor.png" )
+		SpawnPointEntity.textureVehicle = dxCreateTexture ( "images/Vehicle_Editor.png" )
 		addEventHandler ( "onClientPreRender", root, SpawnPointEntity.update, false )
 		
 		outputDebugString ( "SpawnPointEntity: update created" )

@@ -958,27 +958,24 @@ addEventHandler ( "onClientElementStreamIn", resourceRoot,
 	function ( )
 		if isElementLaser ( source ) ~= true then return end;
 		
-		streamedInLasers [ source ] = true
+		streamedInLasers[ source ] = true
+		laserState[ source ] = false
     end
 )
 
 addEventHandler ( "onClientElementStreamOut", resourceRoot,
     function ( )
 		if isElementLaser ( source ) then
-			if streamedInLasers [ source ] then
-				streamedInLasers [ source ] = nil
-			end
+			streamedInLasers[ source ] = nil
+			laserState[ source ] = nil
 		end
     end
 )
 
 addEventHandler ( "onClientElementDestroy", resourceRoot,
 	function ( )
-		if isElementLaser ( source ) ~= true then
-			if streamedInLasers [ source ] then
-				streamedInLasers [ source ] = nil
-			end
-		end
+		streamedInLasers[ source ] = nil
+		laserState[ source ] = nil
 	end
 )
 

@@ -11,7 +11,7 @@ function createMainWindow ( )
 		outputChatBox ( "TCT: Your screen resolution is not supported!", 200, 200, 0 )
 	end
 
-	editorForm.wnd = guiCreateWindow ( ( sw / 2 ) - 370, ( sh / 2 ) - 283, 740, 565, "TCT GC by TEDERIs", false )
+	editorForm.wnd = guiCreateWindow ( ( sw / 2 ) - 370, ( sh / 2 ) - 283, 740, 565, "TEDERIs Construction Tools", false )
 	guiWindowSetSizable ( editorForm.wnd, false )
 	
 	editorForm.leftPanel = guiCreateTabPanel ( 0.02, 0.05, 0.52, 0.86, true, editorForm.wnd )

@@ -4,8 +4,13 @@ ClientCore = {
 	isServerReady = false
 }
 
-function ClientCore.init ( )
+function ClientCore.sendReadyMsg()
 	triggerServerEvent ( "onTCTClientReady", resourceRoot )
 end
 
+function ClientCore.init ( )
+	ClientCore.sendReadyMsg()
+
+	setTimer( ClientCore.sendReadyMsg, 250, 3 )
+end
 addEventHandler ( "onClientResourceStart", resourceRoot, ClientCore.init, false )

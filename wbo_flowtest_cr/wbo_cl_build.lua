@@ -337,8 +337,6 @@ function Editor.start ( )
 	if Editor.started ~= true then
 		loadTranslations ( "conf/translations.xml" )
 		EntitySnap.loadModelsFromXml ( "conf/snapmodels.xml" )
-			
-		setTimer ( ModelReplacer.replace, 1000, 1, 1 )
 		
 		server = createServerCallInterface ( )
 	
@@ -561,7 +559,7 @@ setTimer ( EntitySnap.onUpdate, 100, 0 )
 
 local _drawMaterialLine3D = dxDrawMaterialLine3D
 local shader = dxCreateShader ( "shaders/snapbuffer.fx" )
-local material = dxCreateTexture ( "textures/2425_nav_plain_green.png" )
+local material = dxCreateTexture ( "images/2425_nav_plain_green.png" )
 dxSetShaderValue ( shader, "Tex", material )
 function EntitySnap.onRender ( )
 	--local objects = getElementsByType ( "object", resourceRoot, true )

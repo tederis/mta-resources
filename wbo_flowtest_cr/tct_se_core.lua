@@ -117,25 +117,20 @@ end
 function setupGamemodeCore ( )
 	exports.scoreboard:scoreboardAddColumn ( "room_name", root, 70, "Room" )
 
-	-- 
-	setTimer (
-		function ( )
-			for player, _ in pairs ( corePlayers ) do
-				local account = getPlayerAccount ( player )
-				if isGuestAccount ( account ) ~= true then
-					setupPlayerMoney ( player )
-					transmitPlayerGraphs ( player )
-					
-					bindKey ( player, CONSTRUCTOR_KEY, "both", toggleEditor )
-					
-					RoomManager._onlyJoined ( player )
-				end
-				
-				-- Terrain integration
-				--spawn ( player )
-			end
+	for player, _ in pairs ( corePlayers ) do
+		local account = getPlayerAccount ( player )
+		if isGuestAccount ( account ) ~= true then
+			setupPlayerMoney ( player )
+			transmitPlayerGraphs ( player )
+			
+			bindKey ( player, CONSTRUCTOR_KEY, "both", toggleEditor )
+			
+			RoomManager._onlyJoined ( player )
 		end
-	, 150, 1 )
+		
+		-- Terrain integration
+		--spawn ( player )
+	end
 	
 	isCoreRun = true
 end
@@ -145,6 +140,10 @@ addEventHandler ( "onTCTClientReady", resourceRoot,
 	function ( )
 		local account = getPlayerAccount ( client )
 		if isGuestAccount ( account ) ~= true then
+			if corePlayers [ client ] then
+				return
+			end
+
 			corePlayers [ client ] = true
 			
 			if isCoreRun then
@@ -180,6 +179,11 @@ addEventHandler ( "onPlayerQuit", root,
 
 addEventHandler ( "onPlayerLogin", root,
 	function ( _, account )
+		if corePlayers[ source ] then
+			outputDebugString( "Player " .. getPlayerName( source ) .. " is already initialized!", 2 )
+			return
+		end
+
 		setupPlayerMoney ( source )
 		transmitPlayerGraphs ( source )
 

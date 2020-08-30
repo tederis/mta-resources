@@ -135,19 +135,6 @@ function getPositionOnMap ( posX, posY )
 	return mapX - 0.5, mapY - 0.5
 end
 
---[[
-addEventHandler ( "onClientResourceStart", resourceRoot,
-	function ( )
-		loadTranslations ( "conf/translations.xml" )
-		
-		EntitySnap.loadModelsFromXml ( "conf/snapmodels.xml" )
-		
-		setTimer ( ModelReplacer.replace, 1000, 1, 1 )
-		
-		server = createServerCallInterface ( )
-	end 
-)]]
-
 function getElementResourceName ( element )
 	if isElement ( element ) then
 		local parent = getElementParent ( element )
@@ -630,57 +617,6 @@ function math.round(number, decimals, method)
     local factor = 10 ^ decimals
     if (method == "ceil" or method == "floor") then return math[method](number * factor) / factor
     else return tonumber(("%."..decimals.."f"):format(number)) end
-end
-
-----------------------------------
--- Model replace
-----------------------------------
-ModelReplacer = { }
-
-local engineTextures = {
-	mah_industri3_new = "mah_industri3_new.txd"
-}
-
-local engineModels = {
-	--Стены
-	{ 1799, "mah_industri3_new", "garel_grgedoor_new.dff" },
-	{ 2118, "mah_industri3_new", "AZS_door2.dff" },
-	{ 3037, "mah_industri3_new", "warehouse_door2b_new.dff" },
-	{ 1717, "mah_industri3_new", "REMDOOR_new.dff" },
-	{ 4374, "mah_industri3_new", "arzgrgedoor_spr3_new.dff" }
-}
-
-function ModelReplacer.replace ( step )
-	--toolMaterial.loadMaterial ( )
-	--if true then return end
-
-	if step == 1 then
-		--Сначала загружаем текстуры
-		for name, filename in pairs ( engineTextures ) do
-			engineTextures [ name ] = engineLoadTXD ( "models/" .. filename )
-		end
-		
-		setTimer ( ModelReplacer.replace, 500, 1, step + 1 )
-		
-		outputDebugString ( "WBO: Текстуры успешно загружены" )
-	elseif step == 2 then
-		--Затем грузим модели
-		for _, model in ipairs ( engineModels ) do
-			engineImportTXD ( engineTextures [ model [ 2 ] ], model [ 1 ] )
-	
-			local dff = engineLoadDFF ( "models/" .. model [ 3 ], model [ 1 ] )
-			engineReplaceModel ( dff, model [ 1 ] )
-		end
-		
-		--Загружаем и применяем материалы
-		--initClientMaterials ( )
-		--loadMaterials ( )
-		
-		--Загружаем и применяем слои
-		--toolLayer.loadLayers ( )
-		
-		outputDebugString ( "WBO: Материалы успешно загружены и применены" )
-	end
 end
 
 --[[

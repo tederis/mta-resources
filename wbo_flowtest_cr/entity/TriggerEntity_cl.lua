@@ -20,7 +20,7 @@ function TriggerEntity.streamIn ( element )
 	TriggerEntity:addElement ( element )
 	
 	if TriggerEntity.refs == 1 then
-		TriggerEntity.texture = dxCreateTexture ( "images/Modular Editor.png" )
+		TriggerEntity.texture = dxCreateTexture ( "images/Modular_Editor.png" )
 		TriggerEntity.shader = dxCreateShader ( "shaders/garage.fx" )
 		dxSetShaderValue ( TriggerEntity.shader, "Color", 0, 0, 0.6, 0.1 )
 		addEventHandler ( "onClientPreRender", root, TriggerEntity.update, false, "low" )
